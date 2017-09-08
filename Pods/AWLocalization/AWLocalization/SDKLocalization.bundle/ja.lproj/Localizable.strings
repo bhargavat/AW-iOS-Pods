@@ -1,0 +1,464 @@
+//
+//  AWController+CommandHandler.swift
+//  AirWatchSDK
+//
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/*************  Common AW Localized strings **********/
+"UnknownServerErrorMessage" ="原因不明のサーバ エラーが発生しました。管理者までお問い合わせください。";
+"InvalidCredentialsTitle" = "提供された資格情報は検証できませんでした。再試行してください。";
+"UnknownTitle" = "不明";
+"UserCancelledOperation" = "ユーザーが接続を中止しました。";
+"Ok" = "OK";
+"DataSampleFailedTransmitTitle" = "データ サンプル送信に失敗しました。";
+"ConnectionFailureFormat" = "接続に失敗しました。ステータス コード: %d";
+"DataSamplerFailedTransmissionDescription" = "DataSamplerFailedTransmissionDescription";
+"DataSamplerFailedTransmissionReason" = "DataSamplerFailedTransmissionReason";
+"ErrorAuthenticating" = "認証エラー";
+"LoginMessage" ="ログインして再試行してください";
+"EndpointUnavailable" = "このリクエストは、現在お使いのバージョンのコンソールで利用できません。";
+"Retry" = "再試行";
+"Wipe" = "ワイプ";
+"Warning" = "警告";
+"DeviceNotEnrolledOrAppNotWhitelistedError" = "エラーが発生しました。加入が完了しているか、このアプリを使用する権限があるかを確認してください。";
+
+/*************  AWAssetTracker Localized strings **********/
+"UnableToRetrieveDeviceStatus" = "デバイスの状態を取得できません";
+"DeviceMustBeEnrolled" = "デバイスを加入する必要があります";
+"DeviceCheckoutFailed" = "デバイスの貸し出し失敗";
+"ConnectionLostError" = "サーバへの接続が切断されました。\n後ほど再試行してください。";
+"NetworkConnectionLost" = "ネットワーク接続切断";
+"ConnectionUnavailable" = "接続不可能";
+"DeviceNotEnrolled" = "デバイスは加入していません";
+"ErrorTitle" = "エラー";
+"DeviceNonCompliant" = "デバイスが非順守状態です";
+"InvalidLocationGroup"  = "組織グループが無効です";
+"DeviceAlreadyCheckedIn" = "デバイスはすでに返却されています";
+"DeviceAlreadyCheckedOut" = "デバイスはすでに貸し出されています";
+"InvalidCheckOutRequest" = "貸し出し要求が無効です";
+"DeviceCanNotShared" = "デバイスは共有できません";
+"UnknownErrorMessage" = "原因不明のエラーが発生しました。管理者までお問い合わせください";
+"UnknownError" = "不明なエラー";
+
+/************ AWSDK *********/
+"UDIDiOS7CompatibiltiyError" = "デバイスがこの環境に対応していません。サポートが必要な場合は、貴社システム管理者までお問い合わせください。エラー コード: %d";
+"AWSDKInitializationError" = "サーバ接続中にエラーが発生しました。サポートが必要な場合は、貴社システム管理者までお問い合わせください。エラー コード: %d";
+"AgentInitializationError" = "エラーが発生しました。デバイスを再加入してください。サポートが必要な場合は、貴社システム管理者までお問い合わせください。エラー コード: %d";
+"CompatibilityVerifiedTitle" = "互換性検証済み";
+"CompatibilityVerifiedMessage" = "サーバとの互換性は検証済みです";
+"NotEnrolledOrNotCompliant" = "デバイスが加入されていないか、この環境に対応していません。貴社 IT 管理者までお問い合わせください。";
+
+/*************  AWClaimedAuthenticationViewController Localized strings **********/
+"Office365NavBarTitle" = "Office 365";
+
+/*************  AWCompliance Localized strings **********/
+"AWComplianceFailedToStart" = "AWCompliance の開始に失敗しました";
+
+
+/*************  AWContentController Localized strings **********/
+"BadRequestURL" = "無効な要求 URL";
+"RequestCauseServerConflict" = "要求によるサーバ競合発生";
+"InvalidSessionTokenError" = "無効なセッション トークン エラー";
+"ServerCommunicationError" = "サーバ通信エラー";
+
+
+/*************  AWDataSamplerTransmitter Localized strings **********/
+"AWDataSamplerTransmitterFailedTransmissionDescription" = "AWDataSamplerTransmitterFailedTransmissionDescription";
+"AWDataSamplerTransmitterFailedTransmissionReason" = "AWDataSamplerTransmitterFailedTransmissionReason";
+
+
+/*************  AWEnrollmentAccountAuthenticator Localized strings **********/
+"InvalidCredentialsErrorTitle" = "資格情報が正しくありません。ログイン情報とグループ ID を確認して再試行してください。";
+"InvalidActivationCodeErrorMessage" = "入力したグループ ID は正しくありません。再試行してください。";
+"InvalidServerURLErrorMessage" = "入力したサーバ URL は正しくありません。再試行してください。";
+"DeviceNotFoundErrorMessage" = "デバイスは、この AirWatch インスタンスで検出されませんでした。Content Locker を使用する前に加入してください。";
+"DeviceNotEnrolledErrorMessage" = "デバイスは、この AirWatch インスタンスに加入していません。Content Locker を使用する前に加入してください。";
+"DeviceMismatchErrorMessage" = "デバイスは、この AirWatch ユーザー アカウントで加入していません。";
+"AccountLockedErrorMessage"                 = "このアカウントは LDAP/AirWatch でロックされています。管理者までお問い合わせください";
+"InActiveErrorMessage"                      = "このアカウントは AirWatch コンソールで非アクティブになっています。管理者までお問い合わせください";
+"NotMDMEnrolledErrorMessage"                = "ユーザーが MDM 環境を必要とする環境にログインを試みています。管理者までお問い合わせください";
+"InvalidTokenErrorMessage"                  = "失効したトークンまたは存在しないトークンでログインしようとしています。管理者までお問い合わせください";
+"DeviceNotFoundErrorMessage"                = "デバイスが見つかりません。管理者までお問い合わせください";
+"SyncClientNotEnabledErrorMessage"          = "同期クライアントが無効です。管理者までお問い合わせください";
+"PersonalContentNotEnabledErrorMessage"     = "個人コンテンツが無効です。管理者までお問い合わせください";
+"AwchatNotEnabled"                          = "AWChat が無効です。管理者までお問い合わせください";
+"AccountLockedOutError"                     = "このアカウントはロック アウトされています。";
+"InactiveAccountError"                      = "このアカウントはアクティブ化されていません。";
+"MDMEnrollmentRequiredError"                = "この Airwatch インスタンスでは MDM 加入が必要です。";
+"InvalidTokenError"                         = "このトークンは無効です。";
+"ConfigurationError"                        = "構成エラーが発生しました。";
+
+
+/*************  AWHTTPRequestOperation Localized strings **********/
+"UnexpectedStatusCodeFormat" = "%d という予期しないステータス コードを受信しました";
+"UnexpectedContentTypeFormat"  = "予期したコンテンツ タイプ %@ に対し、%@ を受け取りました";
+
+
+/*************  AWLog Localized strings **********/
+"NoDeviceLogsToSend" = "送信するデバイス ログはありません";
+"NoCrashLogsToSend" = "送信するクラッシュ ログはありません";
+"EmptyLogFile" ="ログ ファイルが空です。";
+"NoLogsForSeverityGreaterOrEqualConfiguredLevel"   = "構成されたレベル以上の重要度を持つエントリがログに存在しません。";
+"FailedToSendLogData" = "ログ データの送信に失敗しました。";
+"WiFiConnectionError" = "Wi-Fi ネットワークに接続するか、システム管理者までお問い合わせください。";
+"NeedsWiFiToSendLogData" ="AWConsole は、ログ データの送信に Wi-Fi 接続を必要とします。";
+
+/*************  AWRestrictions Localized strings **********/
+"AWRestrictionsFailedToStart" = "AWRestrictions の開始に失敗しました";
+
+
+/*************  AWSecureChannelWrapper Localized strings **********/
+"SecureChannelServerCertErr" = "サーバ証明書の暗号化エラー";
+"ServerCertificateNotTrustedError" = "ServerCertificateNotTrustedError";
+"SecureChannelHandshakeFailed"  = "ハンドシェイク失敗";
+"FailedToGetToken"  = "デバイスを貸し出しできません。再試行するか、管理者までお問い合わせください。";
+"FailedToInvalidateToken" = "トークンの無効化に失敗しました。";
+
+
+/*************  UIDevice+Power Localized strings **********/
+"UIDeviceBatteryStateFullMessage" = "フル充電";
+"UIDeviceBatteryStateChargingMessage" = "充電中";
+"UIDeviceBatteryStateUnpluggedMessage" = "電源未接続";
+
+
+/*************  AWProxy Localized strings **********/
+"TheProxyConfigurationIsMissing" = "プロキシ構成がありません";
+"CheckServerConfigurationPropertyHasBeenSetAndValidObject" = "serverConfiguration プロパティが正しく設定され、有効なオブジェクトであることを確認してください";
+"ServerConfigurationPropertyHasNotBeenSet" = "serverConfiguration プロパティが設定されていません";
+"ProxyConfigurationIsInvalid" = "プロキシ構成が無効です";
+"CheckServerConfigurationTypeIsSet" = "サーバ構成タイプが設定されているか確認してください";
+"ServerConfigurationTypeIsUnknown" = "サーバ構成タイプが不明です";
+"FailedToRegisterWithNSURLProtocol" = "NSURLProtocol を使った登録に失敗しました";
+"CheckTheClassYouAreRegisteringIsSubclassOfNSURLProtocol" = "登録するクラスが NSURLProtocol のサブクラスであることを確認してください";
+"TheClassYouAttemptedToRegisterIsNotSubclassOfNSURLProtocol" = "登録を試みたクラスは NSURLProtocol のサブクラスではありません";
+
+
+/*************  AWProxy Localized strings **********/
+"FailedToSignRequest" = "要求の署名に失敗しました";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "デバイスの MAG 認証証明書が無効か、存在しません。";
+"ProxyAuthenticationRequired" = "プロキシ認証が必要です。";
+"InvalidAuthenticationForProxy" = "プロキシに提供した認証が無効です。";
+"CheckAuthenticationCredentialsAndTryAgain" = "認証資格情報を確認して再試行してください。";
+"MissingDeviceRootCertificate" = "デバイス ルート証明書がありません";
+"AnActivationCode(LG)WasNeverSaved" = "アクティブ化コードが保存されていません。";
+"FailedToGetPACscript" = "PAC スクリプトの取得に失敗しました。";
+"SetAutoConfigURLProperty" = "autoConfigURL プロパティを設定してください。";
+"AutoConfigURLPropertyIsNotSet" = "autoConfigURL プロパティが設定されていません。";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "指定した自動構成 URL に有効なスクリプトがあることを確認してください。";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "自動構成 URL から取得したデータのデコードに失敗しました。";
+"FailedToRetrievedAutoConfigUrlData" = "自動構成 URL からデータを取得できませんでした。";
+"MakeSurePACURLisValid" = "PAC URL が有効であることを確認してください。";
+"ErrorAlertProxy" = "MAG 構成に問題があります。MAG 設定を確認してください。";
+
+/********************** AWPasscode Handler ************/
+"Dismiss"    = "閉じる";
+"CurrentPassword" = "現在のパスコード";
+"NewPassword"  = "新しいパスコード";
+"ReenterNewPassword" = "新しいパスコードを再入力";
+"Change"            = "変更";
+"Cancel"            = "キャンセル";
+"Enteryourpasscode:" = "パスコードを入力してください:";
+"Passcode"          = "パスコード";
+"Login"             = "ログイン";
+"Notice"            = "通知";
+"Passworddoesnotmatch" = "入力した新しいパスコードが一致していません。";
+"OK"                = "OK";
+"EnterPasscodeError" = "新しいパスコードを入力してください";
+"ReenterPasscodeError" = "新しいパスコードを再入力してください";
+"Passworddonotcomplyrestriction"  = "入力したパスコードは要件を満たしていません";
+"MaximumPasscodeAttemptsMessage" = "試行回数が上限に達しました。デバイスを企業情報ワイプします。";
+"MaximumPasscodeAgeHasExpired" = "現在のパスコードが失効しました。新しいパスコードを作成してください。";
+"PasscodeRequirementChanged" = "パスコード要件が変更されました。新しいパスコードを作成してください。";
+"PasscodePolicyViolation" = "パスコードを設定するには、パスコード ポリシーを参照してください。";
+"MaximumPasscodeAttemptsMessageForApplication" = "試行回数が上限に達しました。アプリケーション データをワイプします。";
+
+"AttemptsLeftMessage" = "残り %d 回試行できます";
+"IncorrectPasscodeEntered" = "入力したパスコードが正しくありません";
+"BackOffMessage"  = "アプリが無効です。%d 秒後に再試行してください";
+"NonSimplePasscode" =   "シンプルなパスコードは設定できません。";
+"AlphanumericPasscodeRequired" = "パスコードが英数字ではありません。";
+"NumericPasscodeRequired" = "パスコードが数字ではありません。";
+"MimimumPasscodeLength"   = "パスコードは %d 文字以上で設定してください。";
+"MimimumComplexCharacters"= "パスコードには %d 文字以上の特殊文字を使用してください。";
+"ExpiredPasscode"         = "このパスコードは以前に使用されています。別のパスコードを入力してください。";
+"EnterYourPin"            = "パスコードを作成";
+"PinCreationMessage"      = "パスコードはアプリにログインする際に使用します。";
+"CreatePin"               = "パスコードを設定してください";
+"PasscodeDidntMatch"      = "パスコードが一致しませんでした。再入力してください。";
+"Continue"                = "続行";
+"EnterAPin"               = "暗証番号を入力してください";
+"Pin"                     = "暗証番号";
+"ConfirmPin"              = "暗証番号を再入力";
+"ConfirmPasscode"         = "パスコードを確認";
+"RetrievingOldPasscode"   = "古いパスコードを取得しています...";
+"NotValidCredentials"     = "資格情報が正しくありません";
+"OldPasscodeCannotBeEmpty"   = "｢古いパスコード｣ フィールドは必須です";
+"PasscodeCannotBeEmpty"   = "｢新しいパスコード」 フィールドは必須です";
+"ForgotPasscode"          = "パスコードをお忘れですか?";
+"ReEnterNewPasscode"      = "新しいパスコードを再入力";
+"PasscodeRestriction"     = "パスコード要件";
+"PasscodePolicyInitial"   = "パスコードの複雑度要件: \n";
+"PasscodePolicyNumeric"   = "%d 文字以上の数字を含む\n";
+"PasscodePolicySimple"    = "繰り返し、昇順/降順に連続していない";
+"PasscodePolicyAplhaNumeric"    =   "%d 文字以上である";
+"PasscodePolicyAplhaNumeric2"   =   "数字と英字をそれぞれ 1 文字ずつ、";
+"PasscodePolicyComplexChar"     =   "かつ %d 文字の記号を含む";
+"Create" = "作成";
+"AttemptLeftMessage" = "残り %d 回試行できます";
+"PasscodesMustMatch" = "同じパスコードを再入力してください";
+"ThatsAMatch" = "パスコードを確認しました。";
+"PasscodeMustBeAtleast" = "パスコードは %d 文字以上で設定してください";
+"CreatePasscode" = "パスコード作成";
+"CreateNewPasscode" = "新しいパスコードを作成してください";
+"OnePasscodeForWS1Apps" = "1 つのパスコードをすべての Workspace One アプリに使用します";
+"EnterSharedPasscode" = "共通パスコードを入力してください";
+"CreateSharedPasscode" = "共通パスコードを作成してください";
+
+/********************** SDK Setup Error Messages *******************/
+"StopSDKRequested" = "｢SDK を停止｣ リクエストにより、アプリケーションが初期化を停止しました。";
+"RegisteringApplicationBlocked" = "コンソールの設定により、アプリケーションはこのデバイスで使用できません。";
+"EnrollmentInformationSetup" = "加入状態を取得できませんでした。";
+"EmptyProfiles" = "SDK プロファイルが取得されませんでした。また、保存されたプロファイルもありません。";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "現在、統合認証用証明書を取得できません。";
+"ApplicationIdentityNotSet" = "ユーザーの ID 検証に失敗しました。";
+"FailedToFetchPinningCertificate" = "現在、SSL ピン留め証明書を取得できません。";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication-> Environment information for application could not be retrieved at this time.";
+"ApplicationConfiguredIncorrectly" = "アプリケーションが適切に構成されていません。このアプリケーションのコールバック スキームが SDK を使って適切に設定されていません。";
+"BlockThirdPartyAppAsStandalone" = "加入する際に使用したアプリケーションがデバイスにインストールされていることを確認してください。";
+
+/********************** Offline Access *******************/
+"OfflineAccessNotAllowed"       = "オフライン アクセスが制限されています。リソースにアクセスするには、インターネットに接続してください。";
+"OfflineAccessDurationExceeded" = "オフライン アクセスの上限に達しました。リソースにアクセスするには、インターネットに接続してください。";
+"OfflineMessage" = "この機能を使用するにはオンライン アクセスが必要です。";
+
+/********************** Command Processor *******************/
+"NoProfilesAvailableForRepublish" = "再発行に利用できるプロファイルがありません。";
+
+/*************AWEnrollmentAuthenticationViewController**********/
+"CompleteAllFieldsAlertMessage"="すべての項目を入力し、再試行してください。";
+"AuthenticatingTitle" = "認証中";
+"ErrorAlert"="続行するには AirWatch デバイス サービス URL が必要です。";
+"DeviceNotEnrolledAlertMessage"="このデバイスは現在加入していません。今すぐ加入しますか?";
+"ErrorAlertServerUnreachable"= "現在サーバに接続できないようです。しばらくしてから再試行してください。";
+"ErrorOccuredCheckEnrollment"="エラーが発生しました。加入プロセスに使用する AirWatch アプリがデバイスにインストールされていることを確認してください。";
+"DeviceNotEnrolledPleaseEnroll"="このデバイスは加入していません。続行するには、デバイスを加入してください。";
+"LastAuthenticationAttemptWipeWarning"="これが最後の試行です。この試行に失敗すると、アプリ データがワイプされます。";
+"NeedToUpdateYourEnvironmentInformation" = "このアプリの登録環境では加入されていないようです。これから環境情報を更新します。";
+"RetryToFetchConfigurationInformation" = "構成情報を取得できませんでした。続行ボタンをクリックして、再度お試しください。";
+
+
+/************* AWAuthorizeTokenView**********/
+"AuthorizationToken" ="認証トークン";
+"Token" = "トークン";
+"WorkOnline" = "オンライン作業";
+"UseToken" = "トークンを使用";
+
+"Username"="ユーザー名";
+"Password" = "パスワード";
+"UseUserNamePassword" = "ユーザー名とパスワードを使用";
+"SignIn" = "サインイン";
+
+/************* Passcode Rules - AWEnrollmentCreatePinViewController **********/
+"YourPasscodeShould" = "パスコードの複雑度要件:";
+"NumericPasscodeLengthInstruction" = "\n - (%d) 文字以上の数字を含む";
+"DontAllowSimpleNumericPasscodeInstrution" = "\n - 繰り返し、昇順/降順に連続していない";
+"AlphaNumericPasscodeLengthInstruction" = "\n - (%d) 文字以上である";
+"AlphaNumericSimplePasscodeInstrution" = "\n - 数字と英字をそれぞれ (1) 文字ずつ、";
+"ComplexSymbolsRequiredInstruction" = " かつ (%d) 文字の記号を含む";
+"DontAllowSimpleAlphanumericInstrution" = "\n - 繰り返し、昇順/降順に連続した文字を含まない";
+"PasscodeHistoryInstruction" = "\n - 過去 (%d) 回以内に使用したパスコードと一致しない";
+
+/************* Passcode Rules Full Sentences - AWEnrollmentCreatePinViewController **********/
+"MinimumNumericPasscodeLengthInstruction" = "パスコードには (%d) 文字以上の数字を含める必要があります。";
+"NonMatchingPasscodeHistoryInstruction" = "パスコードは過去 (%d) 回以内に使用したパスコードと一致しないようにします。";
+"CannotBeSimpleNumericPasscodeInstrution" = "パスコードは、繰り返したり、昇順/降順に連続したりしないようにします。";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "パスコードの文字には、繰り返したり、昇順/降順に連続したりする文字を含めないようにします。";
+"MinimumComplexSymbolsRequiredInstruction" = " パスコードには (%d) 文字以上の記号と特殊文字を含める必要があります。";
+
+
+/******************************* SAML Error Handling *******************************************/
+"PleaseContactYourAdminstrator" = "貴社管理者までお問い合わせください";
+
+/******************************* AWAuthenticationViewController *******************************************/
+"UsernamePasswordRememberMe" = "ユーザー名を保存しますか?";
+"WorkOnline"   = "オンライン作業";
+
+/******************************* AWServerDetailsViewController *******************************************/
+"Success" = "成功";
+"ChangeServerDetailsTitle" = "サーバ詳細";
+"ConfirmChangeServerDetails" = "サーバ詳細を変更しますか? 変更するとアプリケーション データは削除されます";
+"ChangeServerDetailsMessage" = "サーバ詳細は正常に変更されました";
+"ScanQRCodeTitle" = "フォームに入力するには、QR コードをスキャンしてください";
+"ScanQRCode" = "QR コードをスキャン";
+"NeedCameraPermission" = "このアプリケーションにはカメラへのアクセス権が与えられていません。アクセスを許可するには、｢設定｣ をタップして ｢カメラ｣ をオンにします。";
+"ServerURLPlaceholder" = "https://example.com";
+"GroupID" = "グループ ID";
+"ServerURL" = "サーバ URL";
+"InvalidQRCodeErrorMessage" = "QR コードが無効です。有効な QR コードで再試行してください";
+"QRCodeScanErrorMessage" = "QR コードのスキャン エラーが発生しました。再試行してください";
+"ServerURLConnectionError" = "サーバへの接続中にエラーが発生しました。ネットワーク接続を確認するか、貴社システム管理者までお問い合わせください";
+"EmptyServerDetailsErrorMessage" = "続行するには、有効なサーバ URL とグループ ID を入力してください。";
+"AWDeleteReInstall" = "続行するには、削除および再インストール後、デバイス管理サーバへのアクティブなインターネット接続が必要です。";
+"PendingUnenrollmentReportConnectivityError" = "続行するには、デバイスがネットワークに接続されていることを確認してください。";
+/*****************  Touch ID Authentication  ************************************/
+"UseTouchID" = "Touch ID を使用";
+"AuthenticateForAccess" = "アクセス認証";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "デバイスで認証する指紋の一覧が変更されたようです。セキュリティ保護のため、TouchID を再度使用できるようにするには、パスコードを再入力する必要があります。";
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "デバイスで認証する指紋の一覧が変更されたようです。セキュリティ保護のため、TouchID を再度使用できるようにするには、資格情報を再入力する必要があります。";
+
+/********* Compromised Blocker View *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "デバイスは侵害状態 (ジェイルブレーク) です。ネットワーク接続性に問題がありアプリケーションにアクセスできません。";
+
+
+/*************  Common AW Localized strings **********/
+"TryAgain"= "再試行してください";
+"of"= "/";
+"No"= "いいえ";
+"YesTitle"="はい";
+"Accept"="同意する";
+"Confirm"="確認";
+"DeleteTitle"="削除";
+"CancelTitle"="キャンセル";
+"SubmitTitle" = "送信";
+"PageNoTitle"="%d ページ";
+"MarkUnreadtitle" = "未読にする";
+"MarkReadTitle" = "既読にする";
+"MarkAction" = "操作";
+"DeleteAllTitle"="すべて削除";
+"Prev" = "前へ";
+"Next" = "次へ";
+"ThatWorks"= "ありがとうございます。";
+"TermsAndConditionsAllCaps" = "利用規約";
+"TermsAndConditions" = "利用規約";
+
+/*******************AWTableViewController********************************************/
+"ReleaseTitle"= "リリースして更新";
+"LoadingLabel"="読み込み中...";
+"RefreshTitle"="ドラッグして更新";
+
+/*************AWDocumentContainerView**********/
+"BookmarkedPagesTitle"= "ブックマークされたページ";
+"AllPagesTitle" ="すべてのページ";
+
+/************* AWDocumentInteractionController**********/
+"AccessAlertMessage" = "管理者により、選択したアプリでこのドキュメントを開くことは禁止されています。";
+"WarningMessageTitle"="警告";
+
+/************* AWDocumentSearchView**********/
+"EnterSearchText" = "検索語句を入力";
+
+/*************AWEULAViewController**********/
+"DeclineTitle" = "拒否";
+"TermsOfUse" = "利用規約";
+"Back" = "戻る";
+
+/*************AWMessageDetailViewController**********/
+"ComplianceCheckTitle"="順守確認が必要です";
+"ComplianceCheckSentTitle" = "順守確認を送信しました";
+"DeleteMessageTitle" = "メッセージを削除";
+"ConfirmDeleteMessageTitle" = "メッセージ ログを完全に削除しますか?";
+"MessageDetailSectionTitle" = "メッセージ詳細";
+"ConsoleMessageTitle" = "コンソール メッセージ";
+"MessageActionSectionTitle" = "操作";
+
+/*************AWMessageTypesViewController**********/
+"MessageTypesTitle"="メッセージ タイプ";
+"TableCellAllMessages"="すべてのメッセージ";
+"TableCellCompliance"="順守";
+"TableCellUserAgreement"="ユーザー同意書";
+"TableCellAppCatalog"="App Catalog";
+"TableCellMessages"="メッセージ";
+
+/*************AWMessageViewController**********/
+"AllTitle" = "すべて";
+"UnreadTitle" = "未読";
+"ReadTitle" = "既読";
+"NoMessagesTitle" = "メッセージなし";
+"MarkAllTitle" = "すべてに印を付ける";
+"MarkItemsTitle"= "印を付ける";
+"DeleteMessagesTitle"="メッセージを削除";
+"ConfirmDeleteMessages"= "選択したメッセージを完全に削除しますか?";
+"Messages" = "メッセージ";
+
+/**********AWPDFDocumentDocument**********/
+"PasswordAlertTitle" = "ドキュメント パスワード";
+
+/**********AWPDFOutlineViewCell**********/
+"NoTitle" = "(タイトルなし)";
+
+/**********AWPDFSearchViewController**********/
+"SearchViewTitle"="ドキュメント検索";
+"HeaderSectionHitNumber"="( %d )";
+"HeaderSectionTOCTitle"= "%@";
+"HeaderSectionPageAndHitNumber" ="%d ページ (%d)";
+"ExpandAllTitle"= "すべて展開";
+"CollapseAllTitle"= "すべて折りたたむ";
+"SortByHitTitle" = "ヒット数順に並べ替え";
+"SortByPageTitle" = "ページ順に並べ替え";
+"PauseTitle"= "一時停止";
+"ResumeTitle" = "再開";
+"DoneTitle"= "完了";
+"NoResultTitle"="検索結果なし";
+"SearchCompleteTitle"= "検索完了";
+"SearchingPageMessageTitle"= "%i ページを検索しています...";
+
+/**********AWServerPathView**********/
+"ServerPath"="サーバ パス";
+
+/**********AWServerSetupController**********/
+"UrlTitle"="URL";
+"URLPlaceholder" ="https://example.com";
+"GroupIDPlaceholder"="ID の例";
+"InvalidURLAlert"="入力した URL は有効でないようです。";
+"ManualSetup" = "手動セットアップ";
+
+/**********AWTabBar*******************/
+"NewTab" = "新しいタブ";
+
+/* RSA Adaptive Auth */
+
+"BlankAnswerErrorMsg" = "｢暗証番号」 フィールドは必須です。続行するには、暗証番号を入力してください。";
+"WrongAnswerLengthErrorMsg"  = "暗証番号の長さが不適切です。暗証番号は %lu ~ %lu 桁で設定してください。";
+
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "暗証番号と SecurID トークンを入力してください。";
+"AnswerPlaceHolderNewPin" = "暗証番号";
+
+"ChallengeServerError" = "サーバ エラーが発生しました。管理者までお問い合わせください。";
+"ChallengeLocked" = "アカウントがロックされています。管理者までお問い合わせください。";
+"ChallengeNextTokenAuth" = "暗証番号と次の SecurID トークンを入力してください";
+"ChallengeNextTokenAuthAfterNewPinSet" = "暗証番号と SecurID トークンを入力してください";
+"ChallengeNewPinFromSystem" = "以下のユーザー用の暗証番号を入力してください:";
+"ChallengeNewPinFromUser" = "新しい暗証番号を入力してください";
+"ChallengeTokenAuth" = "暗証番号と SecurID トークンを入力してください。暗証番号をまだ設定していない場合は、SecurID トークンのみ入力してください。";
+
+/*************  AW Localized strings for Errors **********/
+"ApplicationRegistrationDidNotComplete" = "アプリケーション要求の認証中にエラーが発生しました";
+"AnErrorOccured" = "エラーが発生しました";
+"ContactYourAdministrator" = "詳細は、貴社 IT 管理者までお問い合わせください";
+"ErrorCode" = "エラー コード:";
+
+/************ AW Certificate Pinning *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK が自動検出から証明書を取得しようとした際、公開キー認証エラーが発生しました";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK がデバイス サービスから証明書を取得しようとした際、公開キー認証エラーが発生しました";
+
+/* SAML Authentication */
+"SAMLVerificationUnavailableErrorMessage" = "お使いのアプリケーションでは SAML が無効化されています。有効化して再試行してください";
+"SAMLVerificationInvalidGroupIDErrorMessage" = "無効なグループ ID";
+"SAMLVerificationInvalidServerURLErrorMessage" = "サーバ URL が正しくありません";
+"SAMLVerificationNoServerResponseErrorMessage" = "サーバから応答がありません";
+"SAMLVerificationNoRedirectURLErrorMessage" = "サーバがサービス プロバイダ URL を返しませんでした";
+"LogoutMessage" = "ログ アウトしています。";
+"SAMLIDPAuthenticationMessage" = "ID プロバイダ による認証を行っています";
+"SAMLContactingSPMessage" = "サービス プロバイダに連絡しています";
+"SAMLAuthenticationCancelledMessage" = "認証はユーザーによりキャンセルされました。再試行してください。";
+
+/* Intercept Links */
+"TargetAppNotInstalledMessage" = "%@ アクションを実行するための許可済みアプリがデバイスにインストールされていません。";
+

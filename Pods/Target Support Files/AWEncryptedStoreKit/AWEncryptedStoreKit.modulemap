@@ -1,0 +1,6 @@
+framework module AWEncryptedStoreKit {
+  umbrella header "AWEncryptedStoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

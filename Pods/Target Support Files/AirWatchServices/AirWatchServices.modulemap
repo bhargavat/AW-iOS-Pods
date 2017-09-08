@@ -1,0 +1,6 @@
+framework module AWServices {
+  umbrella header "AirWatchServices-umbrella.h"
+
+  export *
+  module * { export * }
+}

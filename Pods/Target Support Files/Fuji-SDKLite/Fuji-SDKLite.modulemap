@@ -1,0 +1,6 @@
+framework module Fuji {
+  umbrella header "Fuji-SDKLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

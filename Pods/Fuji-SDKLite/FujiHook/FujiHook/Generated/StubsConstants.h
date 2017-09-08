@@ -1,0 +1,38 @@
+
+/* WARNING: Auto-generated from FujiHook/Metadata/Stubs.xml */
+
+#ifndef _STUBS_CONSTANTS_H_
+#define _STUBS_CONSTANTS_H_
+
+#define HOOK_CFNetwork_CFURLCredentialStorageCopyAllCredentials 0
+#define HOOK_CFNetwork_CFURLCredentialStorageCopyCredentialsForProtectionSpace 1
+#define HOOK_CFNetwork_CFURLCredentialStorageCopyDefaultCredentialForProtectionSpace 2
+#define HOOK_CFNetwork_CFNetworkCopySystemProxySettings 3
+#define HOOK_SystemConfiguration_SCDynamicStoreCopyProxies 4
+#define HOOK_libsystem_network_tcp_connection_start 5
+#define HOOK_libsystem_network_tcp_connection_cancel 6
+#define HOOK_libxpc_xpc_dictionary_get_value 7
+#define HOOK_libxpc_xpc_array_create 8
+#define HOOK_libxpc_xpc_int64_create 9
+#define HOOK_libxpc_xpc_string_create 10
+#define HOOK_libxpc_xpc_dictionary_create 11
+#define HOOK_libxpc_xpc_dictionary_get_string 12
+#define HOOK_libxpc_xpc_dictionary_get_uint64 13
+#define HOOK_libxpc_xpc_dictionary_set_value 14
+#define HOOK_CFNetwork_CFURLProtectionSpaceGetHost 15
+#define HOOK_CFNetwork_CFURLProtectionSpaceGetPort 16
+#define HOOK_CFNetwork_CFURLProtectionSpaceGetServerType 17
+#define HOOK_CFNetwork__CFNetworkSetOverrideSystemProxySettings 18
+#define HOOK_CFNetwork_CFReadStreamCreateForHTTPRequest 19
+#ifdef __arm__
+#define HOOK_libsystem_kernel_syscall 20
+#endif
+
+#ifdef __arm__
+#define HOOK_MAX 21
+#else
+#define HOOK_MAX 20
+#endif
+
+#endif // _STUBS_CONSTANTS_H_
+

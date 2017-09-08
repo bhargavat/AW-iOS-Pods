@@ -1,0 +1,6 @@
+framework module AWLocalization {
+  umbrella header "AWLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

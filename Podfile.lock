@@ -1,0 +1,132 @@
+PODS:
+  - AirWatchSDK (17.6.0):
+    - AirWatchServices (~> 2.10.0)
+    - AWCMWrapper
+    - AWCorePlatformHelpers (~> 2.6.0)
+    - AWCryptoKit (~> 2.5.0)
+    - AWDataSampler (~> 2.9.0)
+    - AWEncryptedStoreKit (~> 1.0.0)
+    - AWError (~> 2.3.0)
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+    - AWOpenURLClient (~> 1.2.0)
+    - AWSDKPresenter (~> 2.14.0)
+    - AWStorageKit (~> 2.3.0)
+    - AWTunnel (~> 2.11.0)
+  - AirWatchServices (2.10.6):
+    - AWCMWrapper
+    - AWCoreNetwork (~> 2.4.0)
+    - AWCorePlatformHelpers (~> 2.6.0)
+    - AWCryptoKit (~> 2.5.0)
+    - AWError (~> 2.3.0)
+    - AWLog (~> 2.2.0)
+  - Alamofire (4.4.0)
+  - AWCMWrapper (2.4.1)
+  - AWCoreNetwork (2.4.4):
+    - Alamofire (~> 4.4.0)
+    - AWCryptoKit (~> 2.5.0)
+    - AWError (~> 2.3.0)
+    - AWLog (~> 2.2.0)
+  - AWCorePlatformHelpers (2.6.4):
+    - AWError (~> 2.3.0)
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+  - AWCryptoKit (2.5.4):
+    - AWError (~> 2.3.0)
+    - AWLog (~> 2.2.0)
+  - AWDataSampler (2.9.0):
+    - AirWatchServices (~> 2.10.0)
+    - AWCorePlatformHelpers (~> 2.6.0)
+    - AWError (~> 2.3.0)
+    - AWLog (~> 2.2.0)
+  - AWEncryptedCoreData (1.0.0):
+    - SQLCipher (~> 3.4.0)
+  - AWEncryptedStoreKit (1.0.4):
+    - AWEncryptedCoreData (~> 1.0.0)
+    - AWLog
+  - AWError (2.3.1):
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+  - AWLocalization (2.1.6)
+  - AWLog (2.2.1):
+    - CocoaLumberjack (~> 3.0.0)
+  - AWOpenURLClient (1.2.0):
+    - AWCryptoKit (~> 2.5.0)
+    - AWLog (~> 2.2.0)
+  - AWSDKPresenter (2.14.4):
+    - AWCorePlatformHelpers (~> 2.6.0)
+    - AWError (~> 2.3.0)
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+    - AWStorageKit (~> 2.3.0)
+  - AWStorageKit (2.3.1):
+    - AWError (~> 2.3.0)
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+  - AWTunnel (2.11.2):
+    - AirWatchServices (~> 2.10.0)
+    - AWCorePlatformHelpers (~> 2.6.0)
+    - AWCryptoKit (~> 2.5.0)
+    - AWError (~> 2.3.0)
+    - AWLocalization (~> 2.1.0)
+    - AWLog (~> 2.2.0)
+    - Fuji-SDKLite
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - Fuji-SDKLite (1.0.2):
+    - Fuji-SDKLite/Hook (= 1.0.2)
+    - Fuji-SDKLite/Utilities (= 1.0.2)
+    - Fuji-SDKLite/vmShared (= 1.0.2)
+  - Fuji-SDKLite/Hook (1.0.2)
+  - Fuji-SDKLite/Utilities (1.0.2)
+  - Fuji-SDKLite/vmShared (1.0.2)
+  - SQLCipher (3.4.1):
+    - SQLCipher/standard (= 3.4.1)
+  - SQLCipher/common (3.4.1)
+  - SQLCipher/standard (3.4.1):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AirWatchSDK (from `ssh://git@stash.air-watch.com:7999/isdkl/airwatchsdk.git`, branch `release/17.6`)
+
+EXTERNAL SOURCES:
+  AirWatchSDK:
+    :branch: release/17.6
+    :git: ssh://git@stash.air-watch.com:7999/isdkl/airwatchsdk.git
+
+CHECKOUT OPTIONS:
+  AirWatchSDK:
+    :commit: 9602c85fceed0bcf6ebf35cf03c00a21aa8d0354
+    :git: ssh://git@stash.air-watch.com:7999/isdkl/airwatchsdk.git
+
+SPEC CHECKSUMS:
+  AirWatchSDK: ca1ca268076f27e4268e2d4a03ec791e439a9310
+  AirWatchServices: 1573870fc53d04d1fe9bca91576240519ab8196a
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AWCMWrapper: c79b4288fa82177cc85503e3febd3c524451af44
+  AWCoreNetwork: de22347a086d16e64fd2694d1c1c0d588cd6637e
+  AWCorePlatformHelpers: 2b6fee46219bee4a2e9bd2e1598d38867753966f
+  AWCryptoKit: aca9004209591467b2a9675a72486f107e4755b2
+  AWDataSampler: 8a4b030e36f01c6428ed48b5bed48da35d7784dd
+  AWEncryptedCoreData: 3dbeceea561e20ef73e0abe763748975059cf844
+  AWEncryptedStoreKit: 2af12df762134a295264a298456327136c2cd28f
+  AWError: 547c450f8788f18f79107ad290959540e2224715
+  AWLocalization: 9b471c3b4174d0f6d21ea3627dcac44fb59b86ca
+  AWLog: f025f9155164cfd19eed8ae870e3bc4a77856ad7
+  AWOpenURLClient: 860246e170ecc4123d51bf1dc014e821ee51718d
+  AWSDKPresenter: 6f8fe1f6651dc65b819c4c7577e0baa2953fe0c9
+  AWStorageKit: d90b9e76f4fe059d4b7748a3717fd30c3cbafea2
+  AWTunnel: bc42a283276580df4947795a267b1d8894300d81
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  Fuji-SDKLite: ee19e27ba7d0fe42dc18a89b14b6ebcbf59fda78
+  SQLCipher: 43d12c0eb9c57fb438749618fc3ce0065509a559
+
+PODFILE CHECKSUM: bdda01db941289cfb98b199aa9524ecd92de5215
+
+COCOAPODS: 1.3.1

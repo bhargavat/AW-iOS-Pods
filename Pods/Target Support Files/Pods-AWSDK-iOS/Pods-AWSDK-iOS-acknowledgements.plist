@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string>This application makes use of the following third party libraries:</string>
+			<key>Title</key>
+			<string>Acknowledgements</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>
+  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+  by copyright and intellectual property laws in the United States and other
+  countries as well as by international treaties. VMware products are covered
+  by one or more patents listed at http://www.vmware.com/go/patents.
+</string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWCMWrapper</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2016 Nevo &lt;huax@vmware.com&gt;
+Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+by copyright and intellectual property laws in the United States and other
+countries as well as by international treaties. VMware products are covered
+by one or more patents listed at http://www.vmware.com/go/patents.
+</string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWCoreNetwork</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWCorePlatformHelpers</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWCryptoKit</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWDataSampler</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2014 iMAS
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</string>
+			<key>License</key>
+			<string>Apache-2.0</string>
+			<key>Title</key>
+			<string>AWEncryptedCoreData</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>AWEncryptedStoreKit</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>AWError</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWLocalization</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Text Goes here </string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>AWLog</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWOpenURLClient</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>AWSDKPresenter</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWStorageKit</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AWTunnel</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright © 2016 VMware, Inc. All rights reserved.
+ 
+This product is protected by copyright and intellectual property laws in the United States and other countries as well as by international treaties.
+AirWatch products may be covered by one or more patents listed at http://www.vmware.com/go/patents.
+
+VMware® Software Developer Kit (SDK) Agreement
+
+VMware, Inc. ("VMware") provides this Software Developer Kit ("SDK") to you subject to the following terms and conditions.  If you disagree with any of the following terms, then do not use this SDK.
+
+
+
+1.  This SDK contains a variety of materials, including but not limited to, interface definitions, documentation, and sample code regarding programming interfaces to one or more VMware products as referenced in such materials ("VMware Software").  This SDK is intended to serve as a guide for writing programs to interact with the VMware Software.
+
+
+
+2.  Use Rights:  Subject to the restrictions below, you may download and make a reasonable number of copies of the SDK contents for your use solely for the purpose of creating software that communicates with VMware Software ("Developer Software").   For the code designated as "distributable code" in the SDK documentation and posted at http://www.vmware.com/go/sdk-redistribution-info, you may use and merge all or portions of the "distributable code" with your Developer Software.  Any merged portion of the "distributable code" is subject to this SDK Agreement.  For the code designated as "sample code" in the SDK documentation and posted at http://vmware.com/developer, you may modify or create derivative works of all or portions of the "sample code".  You are permitted to re-distribute the "distributable code" and the modified or derivative works of the "sample code" only as part of your Developer Software for non-commercial or commercial use. 
+
+
+
+3.  Restrictions:  You agree that you will not (1) use the SDK to create, design or develop anything other than Developer Software; (2) make any more copies of the SDK than are reasonably necessary for the authorized use and backup and archival purposes; (3) modify, create derivative works of, reverse engineer, reverse compile, or disassemble the SDK, except as expressly permitted in Section 2; (4) distribute, sell, lease, rent, lend, or sublicense any part of the SDK to any third party except as expressly permitted in Section 2 or; (5) use the SDK to (a) create, design or develop software or service to circumvent, enable, modify or provide access, permissions or rights which would violate the technical restrictions of VMware Software, any additional licensing terms provided by VMware via product documentation, email notification and/or policy change on VMware website, and/or the terms of the End User License Agreements of VMware products; (b) disable, remove, over-ride or modify the display of any VMware product End User License Agreements to the end customers; and (c) upload or otherwise transmit any material containing software viruses or other computer code, files or programs designed to interrupt, destroy, or limit the functionality of any software or hardware. 
+
+
+
+The restrictions in this Section 3 shall not apply if and to the extent they contradict mandatory local law (including, but not limited to, law implementing the EC Software Directive) provided that, before you exercise any rights that you believe to be entitled to based on mandatory law, you provide VMware with 30 days prior written notice at SDK_Legal@vmware.com and provide all reasonably requested information to allow VMware to assess your claim and, at VMware’s sole discretion, to provide alternatives that reduce any adverse impact on VMware’s intellectual property or other rights.  
+
+
+
+4.   VMware retains ownership of the SDK, including without limitation all copyrights and other intellectual property rights therein.  You may not remove, delete or modify any of VMware copyright statements in the SDK.
+
+
+
+5.  You may not use VMware’s name, trademarks or service marks in your Developer Software’s names or in a way that suggests your Developer Software is certified or endorsed by VMware. Your use of VMware product names and trademarks shall comply with the Branding Guidelines posted at www.vmware.com.
+
+
+
+6.  You will not receive any VMware support or subscription services for the SDK or any other services from VMware in connection with the SDK.  If you have purchased support and/or subscription services for a VMware product, such support and/or subscription services shall not apply to the SDK or your use of the SDK. 
+
+
+
+7.  Term, Termination and Changes: This Agreement shall continue as long as you are in compliance with the terms specified herein or until otherwise terminated.  You and or VMware each may terminate this Agreement for any reason at any time.  You agree, upon termination, to destroy all copies of the SDK within your possession or control. The Limitations of Warranties, Liability and Indemnification sections set out in this Agreement shall survive any termination or expiration of this Agreement.
+
+
+
+8.  Limitations of Warranties and Liability:  THE SDK IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY KIND.   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE DISCLAIMS ANY IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL VMWARE BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE SDK OR YOUR USE OF THE SDK, UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE.  BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU.
+
+
+
+VMWARE’S LIABILITY ARISING OUT OF THE SDK PROVIDED HEREUNDER WILL NOT, IN ANY EVENT, EXCEED US$5.00.
+
+
+
+THE FOREGOING LIMITATIONS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, REGARDLESS OF WHETHER VMWARE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+
+
+
+9.  Indemnification: You agree to defend, indemnify and hold harmless VMware, and any of its directors, officers, employees, affiliates or agents, from and against any and all claims, losses, damages, liabilities and other expenses (including reasonable attorneys’ fees), arising from your modification or derivative works of the "sample code", distribution or use of your Developer Software or breach of this SDK Agreement.
+
+
+
+10.  These terms are governed by the laws of the State of California and the United States of America without regard to conflict of laws principles. You may not assign any part of this Agreement without the prior written consent of VMware.  Any attempted assignment without consent shall be void. These terms constitute the entire agreement between you and VMware with respect to the SDK, and supersede all prior written or oral communications, understandings and agreements. Any waiver of these terms must be in writing to be effective. If any provision of these terms is found to be invalid or unenforceable, the remaining terms will continue to be valid and enforceable to the fullest extent permitted by law.
+
+
+
+If you have any questions about this SDK Agreement, please direct all correspondence to SDK_Legal@vmware.com. </string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AirWatchSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>Commercial</string>
+			<key>Title</key>
+			<string>AirWatchServices</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2014-2016 Alamofire Software Foundation (http://alamofire.org/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>License</key>
+			<string>MIT</string>
+			<key>Title</key>
+			<string>Alamofire</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Software License Agreement (BSD License)
+
+Copyright (c) 2010-2016, Deusty, LLC
+All rights reserved.
+
+Redistribution and use of this software in source and binary forms,
+with or without modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above
+  copyright notice, this list of conditions and the
+  following disclaimer.
+
+* Neither the name of Deusty nor the names of its
+  contributors may be used to endorse or promote products
+  derived from this software without specific prior
+  written permission of Deusty, LLC.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</string>
+			<key>License</key>
+			<string>BSD</string>
+			<key>Title</key>
+			<string>CocoaLumberjack</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string></string>
+			<key>License</key>
+			<string>Proprietary</string>
+			<key>Title</key>
+			<string>Fuji-SDKLite</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright (c) 2008, ZETETIC LLC
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the ZETETIC LLC nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY ZETETIC LLC ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL ZETETIC LLC BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</string>
+			<key>License</key>
+			<string>BSD</string>
+			<key>Title</key>
+			<string>SQLCipher</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Generated by CocoaPods - https://cocoapods.org</string>
+			<key>Title</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Acknowledgements</string>
+	<key>Title</key>
+	<string>Acknowledgements</string>
+</dict>
+</plist>

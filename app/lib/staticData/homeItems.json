@@ -1,0 +1,14 @@
+{"data":[
+	{
+	"label": "General Information",
+	"value": "Contains information related to user enrollment (credentials, server details, organization group, etc)"
+	},
+	{
+	"label": "Integrated Authentication",
+	"value": "Authenticates users on websites/apis without user interaction"
+	},
+	{
+	"label": "Local Authentication",
+	"value": "Authenticates users in apps via passcode, username/password, and/or SSO"
+	}
+]}

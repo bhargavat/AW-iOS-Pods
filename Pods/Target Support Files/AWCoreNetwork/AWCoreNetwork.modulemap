@@ -1,0 +1,6 @@
+framework module AWNetwork {
+  umbrella header "AWCoreNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

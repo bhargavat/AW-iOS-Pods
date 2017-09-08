@@ -1,0 +1,6 @@
+framework module EncryptedCoreData {
+  umbrella header "AWEncryptedCoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}

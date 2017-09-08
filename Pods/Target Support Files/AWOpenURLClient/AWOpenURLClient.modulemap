@@ -1,0 +1,6 @@
+framework module AWOpenURLClient {
+  umbrella header "AWOpenURLClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

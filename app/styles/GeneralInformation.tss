@@ -1,0 +1,25 @@
+"#homelist": {
+	height: '100%'
+}
+"#listitemView":{
+	height: Titanium.UI.SIZE
+}
+
+".listTemplate":{
+	height: Titanium.UI.SIZE
+}
+".itemLabels":{
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	left:'10dp',
+	top: '5dp',
+	font:{
+		fontWeight: "bold",
+	}
+}
+".itemValues":{
+	left: '25dp',
+	right: '5dp',
+	font:{
+		fontSize: "12dp"
+	}
+}

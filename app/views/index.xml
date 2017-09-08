@@ -1,0 +1,19 @@
+<Alloy>
+	<NavigationWindow id="homewin" module="xp.ui">
+		<Window class="container" title="Home">
+			<ListView id="homelist" defaultItemTemplate="listtemplate" onItemclick="onListViewItemclick">
+				<Templates>
+					<ItemTemplate name="listtemplate" class="listTemplate">
+						<View id="listitemView" layout="vertical">
+							<Label id="text" bindId="label" class="itemLabels"></Label>
+							<Label id="subtext" bindId="value" class="itemValues"></Label>						
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="listsection" dataCollection="twoitemlist">
+					<ListItem label:text="{label}" value:text="{value}"></ListItem>
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

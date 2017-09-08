@@ -1,0 +1,73 @@
+{
+  "name": "AirWatchSDK",
+  "module_name": "AWSDK",
+  "version": "17.6.0",
+  "summary": "iOS SDK to provide Air-Watch features into applications",
+  "homepage": "https://stash.air-watch.com/projects/ISDKL/repos/airwatchsdk/browse",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "DL.Dev.iOS.SDK": "DL.Dev.iOS.SDK@air-watch.com",
+    "DL.Dev.iOS.Agent": "DL.Dev.iOS.Agent@air-watch.com"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "ssh://git@stash.air-watch.com:7999/isdkl/airwatchsdk.git",
+    "tag": "build/17.6.0"
+  },
+  "source_files": "AirWatchSDK/**/*.{h,m,c,swift}",
+  "exclude_files": [
+    "AirWatchSDK/AWProxy.swift",
+    "AirWatchSDK/AWForwarderService.swift"
+  ],
+  "dependencies": {
+    "AirWatchServices": [
+      "~> 2.10.0"
+    ],
+    "AWCorePlatformHelpers": [
+      "~> 2.6.0"
+    ],
+    "AWCryptoKit": [
+      "~> 2.5.0"
+    ],
+    "AWDataSampler": [
+      "~> 2.9.0"
+    ],
+    "AWError": [
+      "~> 2.3.0"
+    ],
+    "AWLog": [
+      "~> 2.2.0"
+    ],
+    "AWSDKPresenter": [
+      "~> 2.14.0"
+    ],
+    "AWStorageKit": [
+      "~> 2.3.0"
+    ],
+    "AWTunnel": [
+      "~> 2.11.0"
+    ],
+    "AWOpenURLClient": [
+      "~> 1.2.0"
+    ],
+    "AWEncryptedStoreKit": [
+      "~> 1.0.0"
+    ],
+    "AWLocalization": [
+      "~> 2.1.0"
+    ],
+    "AWCMWrapper": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS[config=Debug]": "-DDEBUG -DCERTIFICATE_PINNING",
+    "OTHER_SWIFT_FLAGS[config=Release]": "-DCERTIFICATE_PINNING"
+  }
+}

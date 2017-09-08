@@ -1,0 +1,6 @@
+framework module AWCrypto {
+  umbrella header "AWCryptoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

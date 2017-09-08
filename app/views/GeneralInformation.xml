@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="genInfoWin" title="General Information">
+		<ListView id="homelist" defaultItemTemplate="listtemplate">
+			<Templates>
+				<ItemTemplate name="listtemplate" class="listTemplate">
+					<View id="listitemView" layout="vertical">
+						<Label id="text" bindId="label" class="itemLabels"></Label>
+						<Label id="subtext" bindId="value" class="itemValues"></Label>						
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="userinfo" headerTitle="User Information" dataCollection="userlist" >
+				<ListItem label:text="{label}" value:text="{value}"></ListItem>
+			</ListSection>
+			<ListSection id="deviceinfo" headerTitle="Device Information" dataCollection="devicelist" >
+				<ListItem label:text="{label}" value:text="{value}"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

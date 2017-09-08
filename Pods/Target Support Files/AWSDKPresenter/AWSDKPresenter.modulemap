@@ -1,0 +1,6 @@
+framework module AWPresentation {
+  umbrella header "AWSDKPresenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

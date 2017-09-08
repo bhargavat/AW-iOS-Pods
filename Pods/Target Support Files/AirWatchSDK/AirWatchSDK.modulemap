@@ -1,0 +1,6 @@
+framework module AWSDK {
+  umbrella header "AirWatchSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

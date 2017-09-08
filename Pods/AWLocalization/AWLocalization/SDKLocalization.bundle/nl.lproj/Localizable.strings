@@ -1,0 +1,464 @@
+//
+//  AWController+CommandHandler.swift
+//  AirWatchSDK
+//
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/*************  Common AW Localized strings **********/
+"UnknownServerErrorMessage" ="Er is een onbekende serverfout opgetreden. Neem contact op met uw beheerder.";
+"InvalidCredentialsTitle" = "De door u opgegeven inloggegevens kunnen niet worden gevalideerd. Probeer het opnieuw.";
+"UnknownTitle" = "Onbekend";
+"UserCancelledOperation" = "De gebruiker heeft de verbinding geannuleerd.";
+"Ok" = "OK";
+"DataSampleFailedTransmitTitle" = "Verzenden DataSample mislukt";
+"ConnectionFailureFormat" = "Verbinding mislukt met statuscode %d";
+"DataSamplerFailedTransmissionDescription" = "DataSamplerFailedTransmissionDescription";
+"DataSamplerFailedTransmissionReason" = "DataSamplerFailedTransmissionReason";
+"ErrorAuthenticating" = "Er is een fout opgetreden tijdens de verificatie.";
+"LoginMessage" ="Log in voordat u het opnieuw probeert.";
+"EndpointUnavailable" = "Dit verzoek is niet beschikbaar in de huidige versie van uw console.";
+"Retry" = "Opnieuw proberen";
+"Wipe" = "Wissen";
+"Warning" = "Waarschuwing";
+"DeviceNotEnrolledOrAppNotWhitelistedError" = "Er is een fout opgetreden. Controleer of u bent ingeschreven en gemachtigd om deze app te gebruiken.";
+
+/*************  AWAssetTracker Localized strings **********/
+"UnableToRetrieveDeviceStatus" = "Kan de status van het toestel niet ophalen";
+"DeviceMustBeEnrolled" = "Het toestel moet ingeschreven zijn.";
+"DeviceCheckoutFailed" = "Toestel uitchecken mislukt";
+"ConnectionLostError" = "De netwerkverbinding met de server is verbroken.\nProbeer het later opnieuw.";
+"NetworkConnectionLost" = "Netwerkverbinding verbroken";
+"ConnectionUnavailable" = "Verbinding niet beschikbaar";
+"DeviceNotEnrolled" = "Toestel is niet ingeschreven";
+"ErrorTitle" = "Fout";
+"DeviceNonCompliant" = "Toestel is niet-conform";
+"InvalidLocationGroup"  = "Organisatiegroep is ongeldig.";
+"DeviceAlreadyCheckedIn" = "Toestel is al ingecheckt.";
+"DeviceAlreadyCheckedOut" = "Toestel is al uitgecheckt.";
+"InvalidCheckOutRequest" = "Ongeldige aanvraag voor uitchecken";
+"DeviceCanNotShared" = "Toestel kan niet worden gedeeld.";
+"UnknownErrorMessage" = "Er is een onbekende fout opgetreden. Neem contact op met uw beheerder.";
+"UnknownError" = "Onbekende fout";
+
+/************ AWSDK *********/
+"UDIDiOS7CompatibiltiyError" = "Toestel is niet compatibel met deze omgeving. Neem contact op met uw systeembeheerder voor ondersteuning. Foutcode %d.";
+"AWSDKInitializationError" = "Fout bij het verbinden met de server. Neem contact op met uw systeembeheerder voor ondersteuning. Foutcode %d.";
+"AgentInitializationError" = "Er is een fout opgetreden. U moet uw toestel opnieuw inschrijven. Neem contact op met uw systeembeheerder voor verdere hulp. Foutcode %d.";
+"CompatibilityVerifiedTitle" = "Compatibiliteit geverifieerd";
+"CompatibilityVerifiedMessage" = "Compatibiliteit met de server geverifieerd.";
+"NotEnrolledOrNotCompliant" = "Toestel is niet ingeschreven of is niet compatibel met de omgeving. Neem contact op met uw IT-beheerder voor verdere hulp.";
+
+/*************  AWClaimedAuthenticationViewController Localized strings **********/
+"Office365NavBarTitle" = "Office 365";
+
+/*************  AWCompliance Localized strings **********/
+"AWComplianceFailedToStart" = "AWCompliance kan niet worden gestart.";
+
+
+/*************  AWContentController Localized strings **********/
+"BadRequestURL" = "Ongeldig verzoek URL";
+"RequestCauseServerConflict" = "Oorzaak serverconflict opvragen.";
+"InvalidSessionTokenError" = "Ongeldig sessietoken";
+"ServerCommunicationError" = "Communicatiefout met de server";
+
+
+/*************  AWDataSamplerTransmitter Localized strings **********/
+"AWDataSamplerTransmitterFailedTransmissionDescription" = "AWDataSamplerTransmitterFailedTransmissionDescription";
+"AWDataSamplerTransmitterFailedTransmissionReason" = "AWDataSamplerTransmitterFailedTransmissionReason";
+
+
+/*************  AWEnrollmentAccountAuthenticator Localized strings **********/
+"InvalidCredentialsErrorTitle" = "Ongeldige inloggegevens. Controleer uw inloggegevens en groeps-ID. Probeer het dan opnieuw.";
+"InvalidActivationCodeErrorMessage" = "De opgegeven groeps-ID is ongeldig. Probeer het opnieuw.";
+"InvalidServerURLErrorMessage" = "De opgegeven server-URL is ongeldig. Probeer het opnieuw.";
+"DeviceNotFoundErrorMessage" = "Het toestel kan niet worden gevonden binnen deze AirWatch-omgeving. Schrijf het toestel in voordat u probeert de Secure Content Locker te gebruiken.";
+"DeviceNotEnrolledErrorMessage" = "Het toestel is niet ingeschreven in deze AirWatch-omgeving. Schrijf het toestel in voordat u probeert de Secure Content Locker te gebruiken.";
+"DeviceMismatchErrorMessage" = "Het toestel is niet met dit AirWatch-gebruikersaccount ingeschreven.";
+"AccountLockedErrorMessage"                 = "Uw account is geblokkeerd in LDAP/Airwatch. Neem contact op met de beheerder";
+"InActiveErrorMessage"                      = "Uw account is gedeactiveerd in de AirWatch-console. Neem contact op met de beheerder";
+"NotMDMEnrolledErrorMessage"                = "De gebruiker probeert in te loggen in een omgeving waar MDM-inschrijving is vereist. Neem contact op met de beheerder";
+"InvalidTokenErrorMessage"                  = "De gebruiker probeert in te loggen met verlopen of niet-bestaand token. Neem contact op met de beheerder";
+"DeviceNotFoundErrorMessage"                = "Het toestel is niet gevonden. Neem contact op met de beheerder";
+"SyncClientNotEnabledErrorMessage"          = "Sync-client is niet ingeschakeld. Neem contact op met de beheerder";
+"PersonalContentNotEnabledErrorMessage"     = "Persoonlijke inhoud is niet ingeschakeld. Neem contact op met de beheerder";
+"AwchatNotEnabled"                          = "AWChat is niet ingeschakeld. Neem contact op met de beheerder";
+"AccountLockedOutError"                     = "Dit account is geblokkeerd.";
+"InactiveAccountError"                      = "Dit account is niet geactiveerd.";
+"MDMEnrollmentRequiredError"                = "Inschrijving in MDM is verplicht in deze AirWatch-omgeving.";
+"InvalidTokenError"                         = "Het opgegeven token is ongeldig.";
+"ConfigurationError"                        = "Er is een configuratiefout opgetreden.";
+
+
+/*************  AWHTTPRequestOperation Localized strings **********/
+"UnexpectedStatusCodeFormat" = "Onverwachte statuscode ontvangen: %d";
+"UnexpectedContentTypeFormat"  = "Verwachte inhoudstype is %@, ontvangen type is %@";
+
+
+/*************  AWLog Localized strings **********/
+"NoDeviceLogsToSend" = "Er zijn geen toestellogboeken om te verzenden.";
+"NoCrashLogsToSend" = "Er zijn geen crashlogboeken om te verzenden.";
+"EmptyLogFile" ="Logboekbestand is leeg.";
+"NoLogsForSeverityGreaterOrEqualConfiguredLevel"   = "Het logboek bevat geen vermelding met een ernst groter dan of gelijk aan het geconfigureerde niveau.";
+"FailedToSendLogData" = "Verzenden van logboekgegevens is mislukt";
+"WiFiConnectionError" = "Maak verbinding met een Wi-Fi-netwerk of neem contact op met uw systeembeheerder.";
+"NeedsWiFiToSendLogData" ="AWConsole heeft een Wi-Fi-verbinding nodig om loggegevens te verzenden.";
+
+/*************  AWRestrictions Localized strings **********/
+"AWRestrictionsFailedToStart" = "AWRestrictions kan niet worden gestart.";
+
+
+/*************  AWSecureChannelWrapper Localized strings **********/
+"SecureChannelServerCertErr" = "Encryptiefout met servercertificaat";
+"ServerCertificateNotTrustedError" = "ServerCertificateNotTrustedError";
+"SecureChannelHandshakeFailed"  = "Handshake mislukt";
+"FailedToGetToken"  = "Kan toestel niet uitchecken. Probeer het opnieuw of neem contact op met een systeembeheerder.";
+"FailedToInvalidateToken" = "Ongeldig maken van token is mislukt.";
+
+
+/*************  UIDevice+Power Localized strings **********/
+"UIDeviceBatteryStateFullMessage" = "Vol";
+"UIDeviceBatteryStateChargingMessage" = "Bezig met opladen";
+"UIDeviceBatteryStateUnpluggedMessage" = "Niet aangesloten";
+
+
+/*************  AWProxy Localized strings **********/
+"TheProxyConfigurationIsMissing" = "De proxy-configuratie ontbreekt.";
+"CheckServerConfigurationPropertyHasBeenSetAndValidObject" = "Zorg ervoor dat de eigenschap serverConfiguration is ingesteld en dat deze een geldig object is.";
+"ServerConfigurationPropertyHasNotBeenSet" = "De eigenschap serverConfiguration is niet ingesteld.";
+"ProxyConfigurationIsInvalid" = "De proxyconfiguratie is ongeldig.";
+"CheckServerConfigurationTypeIsSet" = "Zorg ervoor dat het serverconfiguratietype is ingesteld.";
+"ServerConfigurationTypeIsUnknown" = "Het serverconfiguratietype is onbekend.";
+"FailedToRegisterWithNSURLProtocol" = "Registratie bij NSURLProtocol is mislukt";
+"CheckTheClassYouAreRegisteringIsSubclassOfNSURLProtocol" = "Zorg ervoor dat de klasse die u registreert een subklasse is van NSURLProtocol.";
+"TheClassYouAttemptedToRegisterIsNotSubclassOfNSURLProtocol" = "De klasse die u trachtte te registreren is geen subklasse van NSURLProtocol.";
+
+
+/*************  AWProxy Localized strings **********/
+"FailedToSignRequest" = "Ondertekenen van de aanvraag is mislukt";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "Er is geen of een ongeldig MAG-verificatiecertificaat op het toestel opgeslagen.";
+"ProxyAuthenticationRequired" = "Proxy-verificatie vereist.";
+"InvalidAuthenticationForProxy" = "De verificatie die bij de proxy werd gemeld is ongeldig.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Controleer uw inloggegevens en probeer het opnieuw.";
+"MissingDeviceRootCertificate" = "Basiscertificaat van het toestel ontbreekt";
+"AnActivationCode(LG)WasNeverSaved" = "Er is geen activeringscode (LG) opgeslagen.";
+"FailedToGetPACscript" = "PAC-script ophalen mislukt.";
+"SetAutoConfigURLProperty" = "Stel de eigenschap autoConfigURL in.";
+"AutoConfigURLPropertyIsNotSet" = "De automatische configuratie-URL eigenschap is niet ingesteld.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Zorg dat er een geldig script op de opgegeven autoConfig-URL aanwezig is.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Het decoderen van de met autoConfig-URL opgehaalde gegevens is mislukt.";
+"FailedToRetrievedAutoConfigUrlData" = "Gegevens ophalen van autoConfig-URL is mislukt.";
+"MakeSurePACURLisValid" = "Zorg ervoor dat de PAC-URL geldig is.";
+"ErrorAlertProxy" = "Er is een probleem met het configureren van MAG. Controleer uw MAG-instellingen.";
+
+/********************** AWPasscode Handler ************/
+"Dismiss"    = "Sluiten";
+"CurrentPassword" = "Huidige toegangscode";
+"NewPassword"  = "Nieuwe toegangscode";
+"ReenterNewPassword" = "Voer nieuwe toegangscode opnieuw in";
+"Change"            = "Wijzigen";
+"Cancel"            = "Annuleren";
+"Enteryourpasscode:" = "Voer uw toegangscode in:";
+"Passcode"          = "Toegangscode";
+"Login"             = "Inloggen";
+"Notice"            = "Attentie";
+"Passworddoesnotmatch" = "Het nieuwe wachtwoord dat u heeft ingevoerd komt niet overeen.";
+"OK"                = "OK";
+"EnterPasscodeError" = "Voer de nieuwe toegangscode in";
+"ReenterPasscodeError" = "Voer de nieuwe toegangscode opnieuw in";
+"Passworddonotcomplyrestriction"  = "De toegangscode voldoet niet aan de beperkingen.";
+"MaximumPasscodeAttemptsMessage" = "U heeft het maximaal aantal mislukte inlogpogingen bereikt. Alle bedrijfsgegevens worden van uw toestel gewist.";
+"MaximumPasscodeAgeHasExpired" = "Uw huidige toegangscode is verlopen. U moet een nieuwe toegangscode aanmaken.";
+"PasscodeRequirementChanged" = "De vereisten voor toegangscodes zijn gewijzigd. U moet een nieuwe toegangscode aanmaken.";
+"PasscodePolicyViolation" = "Raadpleeg het beleid voor toegangscodes om een toegangscode in te stellen.";
+"MaximumPasscodeAttemptsMessageForApplication" = "U heeft het maximaal aantal mislukte inlogpogingen bereikt. Uw applicatiegegevens worden gewist.";
+
+"AttemptsLeftMessage" = "Er resteren nog %d pogingen";
+"IncorrectPasscodeEntered" = "De ingevoerde toegangscode is onjuist.";
+"BackOffMessage"  = "Uw applicatie is uitgeschakeld. Probeer het opnieuw over %d seconden.";
+"NonSimplePasscode" =   "Uw toegangscode mag niet eenvoudig zijn.";
+"AlphanumericPasscodeRequired" = "Uw toegangscode is niet alfanumeriek.";
+"NumericPasscodeRequired" = "Uw toegangscode is niet numeriek";
+"MimimumPasscodeLength"   = "Uw toegangscode moet tenminste %d tekens bevatten.";
+"MimimumComplexCharacters"= "Uw toegangscode moet tenminste %d complexe tekens bevatten.";
+"ExpiredPasscode"         = "Deze toegangscode is eerder gebruikt. Voer een andere toegangscode in.";
+"EnterYourPin"            = "Een toegangscode aanmaken";
+"PinCreationMessage"      = "De toegangscode wordt gebruikt om in te loggen bij de applicatie.";
+"CreatePin"               = "Maak een toegangscode";
+"PasscodeDidntMatch"      = "Toegangscode komt niet overeen. Voer deze opnieuw in.";
+"Continue"                = "Doorgaan";
+"EnterAPin"               = "Voer een pincode in";
+"Pin"                     = "Pincode";
+"ConfirmPin"              = "Bevestig pincode";
+"ConfirmPasscode"         = "Bevestig toegangscode";
+"RetrievingOldPasscode"   = "Uw oude toegangscode wordt opgehaald...";
+"NotValidCredentials"     = "Ongeldige inloggegevens!";
+"OldPasscodeCannotBeEmpty"   = "Het invoerveld voor de oude toegangscode mag niet leeg zijn.";
+"PasscodeCannotBeEmpty"   = "Het invoerveld voor de nieuwe toegangscode mag niet leeg zijn.";
+"ForgotPasscode"          = "Toegangscode vergeten?";
+"ReEnterNewPasscode"      = "Voer het nieuwe wachtwoord opnieuw in";
+"PasscodeRestriction"     = "Toegangscodebeperking";
+"PasscodePolicyInitial"   = "Uw toegangscode \n";
+"PasscodePolicyNumeric"   = "moet tenminste %d cijfer(s) bevatten\n";
+"PasscodePolicySimple"    = "mag niet herhalend / oplopend / aflopend zijn";
+"PasscodePolicyAplhaNumeric"    =   "moet tenminste %d tekens bevatten";
+"PasscodePolicyAplhaNumeric2"   =   "moet ten minste één cijfer en één letter bevatten";
+"PasscodePolicyComplexChar"     =   "en %d symbolen.";
+"Create" = "Aanmaken";
+"AttemptLeftMessage" = "Er resteren nog %d pogingen";
+"PasscodesMustMatch" = "Toegangscodes moeten overeenkomen.";
+"ThatsAMatch" = "Toegangscodes komen overeen!";
+"PasscodeMustBeAtleast" = "Toegangscode moet ten minste %d tekens bevatten";
+"CreatePasscode" = "Toegangscode aan maken";
+"CreateNewPasscode" = "Nieuwe toegangscode aanmaken";
+"OnePasscodeForWS1Apps" = "Eén toegangscode voor al uw Workspace ONE-apps";
+"EnterSharedPasscode" = "Voer de gedeelde toegangscode in";
+"CreateSharedPasscode" = "Gedeelde toegangscode aanmaken";
+
+/********************** SDK Setup Error Messages *******************/
+"StopSDKRequested" = "De initialisatie van de applicatie is gestopt vanwege een \"Stop SDK\"-aanvraag.";
+"RegisteringApplicationBlocked" = "Applicatie is niet gemachtigd door de console voor gebruik op dit toestel.";
+"EnrollmentInformationSetup" = "De inschrijvingsstatus kan niet worden opgehaald.";
+"EmptyProfiles" = "Er zijn geen SDK-profielen opgehaald en er zijn geen opgeslagen profielen.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Er kunnen momenteel geen geïntegreerde verificatiecertificaten worden opgehaald.";
+"ApplicationIdentityNotSet" = "De identiteit van de gebruiker kan niet worden gecontroleerd.";
+"FailedToFetchPinningCertificate" = "Er kunnen momenteel geen SSL-pinning-certificaten worden opgehaald.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication-> Environment information for application could not be retrieved at this time.";
+"ApplicationConfiguredIncorrectly" = "De applicatie is niet correct geconfigureerd. Callback-schema's voor deze applicatie zijn niet correct ingesteld bij de SDK.";
+"BlockThirdPartyAppAsStandalone" = "Zorg ervoor dat de applicatie waarmee gebruikers worden ingeschreven op het toestel is geïnstalleerd.";
+
+/********************** Offline Access *******************/
+"OfflineAccessNotAllowed"       = "Offline-toegang is beperkt. Maak verbinding met het internet voor toegang tot resources.";
+"OfflineAccessDurationExceeded" = "U heeft de limiet van offline-toegang bereikt. Maak verbinding met het internet voor toegang tot resources.";
+"OfflineMessage" = "U moet online zijn om gebruik te kunnen maken van deze functie.";
+
+/********************** Command Processor *******************/
+"NoProfilesAvailableForRepublish" = "Er zijn geen profielen beschikbaar om opnieuw uit te geven.";
+
+/*************AWEnrollmentAuthenticationViewController**********/
+"CompleteAllFieldsAlertMessage"="Vul alle velden in en probeer het opnieuw.";
+"AuthenticatingTitle" = "Bezig met verifiëren";
+"ErrorAlert"="Voer de URL van AirWatch toestelservices in om verder te gaan.";
+"DeviceNotEnrolledAlertMessage"="Dit toestel is momenteel niet ingeschreven. Wilt u het nu inschrijven?";
+"ErrorAlertServerUnreachable"= "De server is momenteel onbereikbaar. Probeer het later opnieuw.";
+"ErrorOccuredCheckEnrollment"="Er is een fout opgetreden. Controleer of de AirWatch-applicatie die voor inschrijving wordt gebruikt op het toestel is geïnstalleerd.";
+"DeviceNotEnrolledPleaseEnroll"="Dit toestel is niet ingeschreven. Schrijf het toestel in om verder te gaan.";
+"LastAuthenticationAttemptWipeWarning"="Dit is uw laatste poging. Na de volgende mislukte inlogpoging zullen alle applicatiegegevens worden gewist.";
+"NeedToUpdateYourEnvironmentInformation" = "Zo te zien bent u niet meer ingeschreven in het systeem waarin deze applicatie is geregistreerd. We zullen nu proberen om de systeeminformatie te actualiseren.";
+"RetryToFetchConfigurationInformation" = "De configuratie-informatie kan niet worden opgehaald. Druk op Doorgaan om het opnieuw te proberen.";
+
+
+/************* AWAuthorizeTokenView**********/
+"AuthorizationToken" ="Verificatietoken";
+"Token" = "Token";
+"WorkOnline" = "Online werken";
+"UseToken" = "Token gebruiken";
+
+"Username"="Gebruikersnaam";
+"Password" = "Wachtwoord";
+"UseUserNamePassword" = "Gebruikersnaam en wachtwoord gebruiken";
+"SignIn" = "Inloggen";
+
+/************* Passcode Rules - AWEnrollmentCreatePinViewController **********/
+"YourPasscodeShould" = "Uw toegangscode \n";
+"NumericPasscodeLengthInstruction" = "\n - moet tenminste %d cijfers bevatten";
+"DontAllowSimpleNumericPasscodeInstrution" = "\n - moet niet herhalend / oplopend / aflopend zijn";
+"AlphaNumericPasscodeLengthInstruction" = "\n - moet tenminste %d tekens bevatten";
+"AlphaNumericSimplePasscodeInstrution" = "\n - moet tenminste één cijfer en één letter bevatten";
+"ComplexSymbolsRequiredInstruction" = " en %d symbo(o)l(en)";
+"DontAllowSimpleAlphanumericInstrution" = "\n - mag niet herhalend / oplopend / aflopend zijn";
+"PasscodeHistoryInstruction" = "\n mag niet overeenkomen met de %d meest recente toegangscodes";
+
+/************* Passcode Rules Full Sentences - AWEnrollmentCreatePinViewController **********/
+"MinimumNumericPasscodeLengthInstruction" = "Uw toegangscode moet tenminste %d cijfers bevatten.";
+"NonMatchingPasscodeHistoryInstruction" = "Uw toegangscode mag niet overeenkomen met de %d meest recente toegangscodes.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Uw toegangscode mag niet herhalend / oplopend / aflopend zijn.";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Uw toegangscode mag geen herhalende / oplopende / aflopende tekens bevatten.";
+"MinimumComplexSymbolsRequiredInstruction" = " Uw toegangscode moet tenminste %d symbo(o)l(en) bevatten.";
+
+
+/******************************* SAML Error Handling *******************************************/
+"PleaseContactYourAdminstrator" = "Neem contact op met uw beheerder";
+
+/******************************* AWAuthenticationViewController *******************************************/
+"UsernamePasswordRememberMe" = "Gebruikersnaam onthouden?";
+"WorkOnline"   = "Online werken";
+
+/******************************* AWServerDetailsViewController *******************************************/
+"Success" = "Succes";
+"ChangeServerDetailsTitle" = "Servergegevens";
+"ConfirmChangeServerDetails" = "Weet u zeker dat u de servergegevens wilt wijzigen? Als u dit doet, worden uw applicatiegegevens verwijderd";
+"ChangeServerDetailsMessage" = "De servergegevens zijn succesvol gewijzigd";
+"ScanQRCodeTitle" = "Scan de QR-code om het formulier in te vullen";
+"ScanQRCode" = "Scan de QR-code";
+"NeedCameraPermission" = "Deze applicatie heeft geen toegang tot uw camera. Om toegang te geven tikt u op Instellingen en schakelt u de camera in";
+"ServerURLPlaceholder" = "https://voorbeeld.nl";
+"GroupID" = "Groeps-ID";
+"ServerURL" = "Server-URL";
+"InvalidQRCodeErrorMessage" = "Ongeldige QR-code. Probeer het nog een keer met een geldige QR-code.";
+"QRCodeScanErrorMessage" = "Er is een fout opgetreden met de QR-code scan. Probeer het opnieuw.";
+"ServerURLConnectionError" = "Er is een fout opgetreden tijdens verbinden met de server. Controleer uw netwerkverbinding of neem contact op met uw systeembeheerder.";
+"EmptyServerDetailsErrorMessage" = "Voer een geldige server-URL en groeps-ID in om verder te gaan.";
+"AWDeleteReInstall" = "Na verwijdering en herinstallatie moet u een actieve internetverbinding met uw toestelbeheerserver hebben voor we verder kunnen gaan.";
+"PendingUnenrollmentReportConnectivityError" = "Om verder te gaan moet u ervoor zorgen dat uw toestel met het netwerk is verbonden.";
+/*****************  Touch ID Authentication  ************************************/
+"UseTouchID" = "Touch ID gebruiken";
+"AuthenticateForAccess" = "Verifiëren voor toegang";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "De lijst met vingerafdrukken op het toestel lijkt gewijzigd. Uit veiligheidsoverwegingen dient u uw toegangscode nu opnieuw in te voeren om het gebruik van Touch ID weer te activeren.";
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "De lijst met vingerafdrukken op het toestel lijkt gewijzigd. Uit veiligheidsoverwegingen dient u uw inloggegevens nu opnieuw in te voeren om het gebruik van Touch ID weer te activeren.";
+
+/********* Compromised Blocker View *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Uw toestel is verdacht (jailbroken). Vanwege een verbindingsprobleem heeft u geen toegang tot uw applicatie.";
+
+
+/*************  Common AW Localized strings **********/
+"TryAgain"= "Probeer opnieuw";
+"of"= "van";
+"No"= "Nee";
+"YesTitle"="Ja";
+"Accept"="Accepteren";
+"Confirm"="Bevestigen";
+"DeleteTitle"="Verwijderen";
+"CancelTitle"="Annuleren";
+"SubmitTitle" = "Verzenden";
+"PageNoTitle"="Pagina %d";
+"MarkUnreadtitle" = "Als ongelezen markeren";
+"MarkReadTitle" = "Als gelezen markeren";
+"MarkAction" = "Actie";
+"DeleteAllTitle"="Alles verwijderen";
+"Prev" = "Vorige";
+"Next" = "Volgende";
+"ThatWorks"= "Dit werkt!";
+"TermsAndConditionsAllCaps" = "ALGEMENE VOORWAARDEN";
+"TermsAndConditions" = "Gebruiksvoorwaarden";
+
+/*******************AWTableViewController********************************************/
+"ReleaseTitle"= "Laat los om te vernieuwen";
+"LoadingLabel"="Bezig met laden...";
+"RefreshTitle"="Trek omlaag om te vernieuwen";
+
+/*************AWDocumentContainerView**********/
+"BookmarkedPagesTitle"= "Pagina's met bladwijzers";
+"AllPagesTitle" ="Alle pagina's";
+
+/************* AWDocumentInteractionController**********/
+"AccessAlertMessage" = "De beheerder staat niet toe dat dit document wordt geopend in de geselecteerde app.";
+"WarningMessageTitle"="Waarschuwing";
+
+/************* AWDocumentSearchView**********/
+"EnterSearchText" = "Zoektekst invoeren";
+
+/*************AWEULAViewController**********/
+"DeclineTitle" = "Weigeren";
+"TermsOfUse" = "Gebruiksvoorwaarden";
+"Back" = "Terug";
+
+/*************AWMessageDetailViewController**********/
+"ComplianceCheckTitle"="Nalevingscontrole is vereist";
+"ComplianceCheckSentTitle" = "Nalevingscontrole  is verzonden";
+"DeleteMessageTitle" = "Bericht verwijderen";
+"ConfirmDeleteMessageTitle" = "Berichtenlog permanent verwijderen?";
+"MessageDetailSectionTitle" = "Berichtgegevens";
+"ConsoleMessageTitle" = "Consolebericht";
+"MessageActionSectionTitle" = "Actie";
+
+/*************AWMessageTypesViewController**********/
+"MessageTypesTitle"="Berichttypen";
+"TableCellAllMessages"="Alle berichten";
+"TableCellCompliance"="Naleving";
+"TableCellUserAgreement"="Gebruikersovereenkomst";
+"TableCellAppCatalog"="App Catalog";
+"TableCellMessages"="Berichten";
+
+/*************AWMessageViewController**********/
+"AllTitle" = "Alle";
+"UnreadTitle" = "Ongelezen";
+"ReadTitle" = "Gelezen";
+"NoMessagesTitle" = "Geen berichten";
+"MarkAllTitle" = "Alles markeren";
+"MarkItemsTitle"= "Markeren";
+"DeleteMessagesTitle"="Berichten verwijderen";
+"ConfirmDeleteMessages"= "Geselecteerde berichten permanent verwijderen?";
+"Messages" = "Berichten";
+
+/**********AWPDFDocumentDocument**********/
+"PasswordAlertTitle" = "Documentwachtwoord";
+
+/**********AWPDFOutlineViewCell**********/
+"NoTitle" = "(Geen titel)";
+
+/**********AWPDFSearchViewController**********/
+"SearchViewTitle"="Zoeken in document";
+"HeaderSectionHitNumber"="( %d )";
+"HeaderSectionTOCTitle"= "%@";
+"HeaderSectionPageAndHitNumber" ="Pagina %d ( %d )";
+"ExpandAllTitle"= "Alles uitvouwen";
+"CollapseAllTitle"= "Alles inklappen";
+"SortByHitTitle" = "Sorteren op treffer";
+"SortByPageTitle" = "Sorteren op pagina";
+"PauseTitle"= "Pauzeren";
+"ResumeTitle" = "Hervatten";
+"DoneTitle"= "Gereed";
+"NoResultTitle"="Geen resultaten gevonden";
+"SearchCompleteTitle"= "Zoekopdracht voltooid";
+"SearchingPageMessageTitle"= "Zoeken in pagina %i ...";
+
+/**********AWServerPathView**********/
+"ServerPath"="Serverpad";
+
+/**********AWServerSetupController**********/
+"UrlTitle"="URL";
+"URLPlaceholder" ="https://voorbeeld.nl";
+"GroupIDPlaceholder"="Voorbeeld-ID";
+"InvalidURLAlert"="De ingevoerde URL lijkt geen geldig adres te zijn.";
+"ManualSetup" = "Handmatige configuratie";
+
+/**********AWTabBar*******************/
+"NewTab" = "Nieuw tabblad";
+
+/* RSA Adaptive Auth */
+
+"BlankAnswerErrorMsg" = "Veld voor pincode mag niet leeg zijn. Voer uw pincode in om verder te gaan.";
+"WrongAnswerLengthErrorMsg"  = "Ongeldige lengte van pincode. Uw pincode moet tussen de %lu en %lu tekens lang zijn.";
+
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Voer uw pincode en SecurID-token in.";
+"AnswerPlaceHolderNewPin" = "Pincode";
+
+"ChallengeServerError" = "Serverfout. Neem contact op met uw beheerder.";
+"ChallengeLocked" = "Uw account is vergrendeld. Neem contact op met uw beheerder.";
+"ChallengeNextTokenAuth" = "Voer uw pincode in en de volgende SecurID-token";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Voer uw pincode en de SecurID-token in";
+"ChallengeNewPinFromSystem" = "Voer pincode in als";
+"ChallengeNewPinFromUser" = "Voer nieuwe pincode in";
+"ChallengeTokenAuth" = "Voer uw pincode en SecurID-token in. Als u nog geen pincode heeft ingesteld, voer dan alleen uw SecurID-token in.";
+
+/*************  AW Localized strings for Errors **********/
+"ApplicationRegistrationDidNotComplete" = "Er is een fout opgetreden tijdens het verifiëren van de applicatie-aanvraag.";
+"AnErrorOccured" = "Er is een fout opgetreden.";
+"ContactYourAdministrator" = "Neem contact op met uw IT-beheerder voor meer informatie.";
+"ErrorCode" = "Foutcode: ";
+
+/************ AW Certificate Pinning *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK krijgt een foutmelding bij de verificatie van de publieke sleutel tijdens het ophalen van een certificaat via autodiscovery";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK krijgt een foutmelding bij de verificatie van de publieke sleutel tijdens het communiceren met toestelservices";
+
+/* SAML Authentication */
+"SAMLVerificationUnavailableErrorMessage" = "SAML is uitgeschakeld in uw applicatie. Schakel SAML in en probeer het opnieuw";
+"SAMLVerificationInvalidGroupIDErrorMessage" = "Ongeldige groeps-ID";
+"SAMLVerificationInvalidServerURLErrorMessage" = "Ongeldige server-URL";
+"SAMLVerificationNoServerResponseErrorMessage" = "Geen respons van de server";
+"SAMLVerificationNoRedirectURLErrorMessage" = "De server heeft de URL voor de serviceprovider niet verstuurd.";
+"LogoutMessage" = "U bent uitgelogd.";
+"SAMLIDPAuthenticationMessage" = "Verificatie met identiteitsprovider";
+"SAMLContactingSPMessage" = "Er wordt nu contact gemaakt met de serviceprovider";
+"SAMLAuthenticationCancelledMessage" = "Verificatie afgebroken door gebruiker. Probeer het opnieuw.";
+
+/* Intercept Links */
+"TargetAppNotInstalledMessage" = "U heeft niet de toegestane apps op uw toestel om %@ uit te voeren.";
+

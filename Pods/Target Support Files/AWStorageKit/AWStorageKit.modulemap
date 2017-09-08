@@ -1,0 +1,6 @@
+framework module AWStorage {
+  umbrella header "AWStorageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

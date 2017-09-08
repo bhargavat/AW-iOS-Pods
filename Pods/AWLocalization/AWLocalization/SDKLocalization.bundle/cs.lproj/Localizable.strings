@@ -1,0 +1,464 @@
+//
+//  AWController+CommandHandler.swift
+//  AirWatchSDK
+//
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/*************  Common AW Localized strings **********/
+"UnknownServerErrorMessage" ="Došlo k neznámé chybě na serveru. Obraťte se, prosím, na svého administrátora.";
+"InvalidCredentialsTitle" = "Poskytnuté přihlašovací údaje nelze ověřit. Zkuste to, prosím, znovu.";
+"UnknownTitle" = "Neznámé";
+"UserCancelledOperation" = "Uživatel zrušil připojení.";
+"Ok" = "OK";
+"DataSampleFailedTransmitTitle" = "DataSample selhal při odesílání.";
+"ConnectionFailureFormat" = "Připojení selhalo se stavovým kódem %d.";
+"DataSamplerFailedTransmissionDescription" = "DataSamplerFailedTransmissionDescription";
+"DataSamplerFailedTransmissionReason" = "DataSamplerFailedTransmissionReason";
+"ErrorAuthenticating" = "Chyba autentizace";
+"LoginMessage" ="Než to zkusíte znovu, přihlaste se.";
+"EndpointUnavailable" = "Tento požadavek není k dispozici ve vaší verzi konzoly.";
+"Retry" = "Zkusit znovu";
+"Wipe" = "Vymazat";
+"Warning" = "Upozornění";
+"DeviceNotEnrolledOrAppNotWhitelistedError" = "Došlo k chybě. Ujistěte se, prosím, že jste zaregistrováni a máte povoleno používat tuto aplikaci.";
+
+/*************  AWAssetTracker Localized strings **********/
+"UnableToRetrieveDeviceStatus" = "Nepodařilo se získat status zařízení.";
+"DeviceMustBeEnrolled" = "Zařízení musí být zaregistrováno.";
+"DeviceCheckoutFailed" = "Přihlášení zařízení se nezdařilo.";
+"ConnectionLostError" = "Připojení k serveru selhalo.\nZkuste to znovu později.";
+"NetworkConnectionLost" = "Připojení k síti bylo přerušeno.";
+"ConnectionUnavailable" = "Připojení není k dispozici.";
+"DeviceNotEnrolled" = "Zařízení není registrováno.";
+"ErrorTitle" = "Chyba";
+"DeviceNonCompliant" = "Zařízení nevyhovuje.";
+"InvalidLocationGroup"  = "Organizační skupina je neplatná.";
+"DeviceAlreadyCheckedIn" = "Zařízení již bylo přihlášeno.";
+"DeviceAlreadyCheckedOut" = "Zařízení již bylo odhlášeno.";
+"InvalidCheckOutRequest" = "Neplatný požadavek přihlášení.";
+"DeviceCanNotShared" = "Zařízení nelze sdílet.";
+"UnknownErrorMessage" = "Došlo k neznámé chybě na serveru. Obraťte se, prosím, na svého administrátora.";
+"UnknownError" = "Neznámá chyba";
+
+/************ AWSDK *********/
+"UDIDiOS7CompatibiltiyError" = "Zařízení není kompatibilní s tímto prostředím. Obraťte se, prosím, na svého systémového administrátora. Kód chyby: %d.";
+"AWSDKInitializationError" = "Nastala chyba během připojování k serveru. Obraťte se, prosím, na svého systémového administrátora. Kód chyby %d.";
+"AgentInitializationError" = "Došlo k chybě. Prosím zaregistrujte znovu své zařízení. Pokud potřebujete pomoc, obraťte se na svého systémového administrátora. Kód chyby %d.";
+"CompatibilityVerifiedTitle" = "Kompatibilita byla ověřena.";
+"CompatibilityVerifiedMessage" = "Kompatibilita se serverem byla ověřena.";
+"NotEnrolledOrNotCompliant" = "Zařízení není zaregistrováno nebo není kompatibilní s prostředím. Obraťte se, prosím, na svého administrátora IT.";
+
+/*************  AWClaimedAuthenticationViewController Localized strings **********/
+"Office365NavBarTitle" = "Office 365";
+
+/*************  AWCompliance Localized strings **********/
+"AWComplianceFailedToStart" = "Nepodařilo se spustit AWCompliance.";
+
+
+/*************  AWContentController Localized strings **********/
+"BadRequestURL" = "Chybný požadavek URL";
+"RequestCauseServerConflict" = "Příčinou požadavku je konflikt na serveru.";
+"InvalidSessionTokenError" = "Chyba - neplatná relace tokenu.";
+"ServerCommunicationError" = "Chyba komunikace serveru.";
+
+
+/*************  AWDataSamplerTransmitter Localized strings **********/
+"AWDataSamplerTransmitterFailedTransmissionDescription" = "Přenos vysílače AW Data Sampler selhal - popis";
+"AWDataSamplerTransmitterFailedTransmissionReason" = "Přenos vysílače AW Data Sampler selhal - příčina";
+
+
+/*************  AWEnrollmentAccountAuthenticator Localized strings **********/
+"InvalidCredentialsErrorTitle" = "Neplatné přihlašovací údaje. Zkontrolujte své přihlašovací údaje a ID skupiny a zkuste to znovu.";
+"InvalidActivationCodeErrorMessage" = "Poskytnuté ID skupiny je neplatné. Prosím, zkuste to znovu.";
+"InvalidServerURLErrorMessage" = "Poskytnuté URL serveru je neplatné. Prosím, zkuste to znovu.";
+"DeviceNotFoundErrorMessage" = "Zařízení nebylo nalezeno na této instanci AirWatch. Prosím, zaregistrujte se, než začnete používat Content Locker.";
+"DeviceNotEnrolledErrorMessage" = "Zařízení není zaregistrováno na této instanci AirWatch. Prosím, zaregistrujte se, než začnete používat Content Locker.";
+"DeviceMismatchErrorMessage" = "Zařízení není zaregistrováno s tímto uživatelským účtem AirWatch.";
+"AccountLockedErrorMessage"                 = "Váš účet je zablokován v LDAP/Airwatch. Obraťte se, prosím, na svého administrátora.";
+"InActiveErrorMessage"                      = "Váš účet byl deaktivován v konzole AirWatch. Obraťte se, prosím, na svého administrátora.";
+"NotMDMEnrolledErrorMessage"                = "Uživatel se pokouší přihlásit do prostředí, kde je požadována registrace MDM. Obraťte se, prosím, na svého administrátora.";
+"InvalidTokenErrorMessage"                  = "Uživatel se pokouší přihlásit pomocí tokenu, u něhož vypršela platnost, nebo tokenu, který neexistuje. Obraťte se, prosím, na svého administrátora.";
+"DeviceNotFoundErrorMessage"                = "Zařízení nebylo nalezeno. Obraťte se, prosím, na administrátora.";
+"SyncClientNotEnabledErrorMessage"          = "Klient synchronizace není aktivován. Obraťte se, prosím, na svého administrátora.";
+"PersonalContentNotEnabledErrorMessage"     = "Osobní obsah není aktivován. Obraťte se, prosím, na svého administrátora.";
+"AwchatNotEnabled"                          = "AWChat není aktivován. Obraťte se, prosím, na svého administrátora.";
+"AccountLockedOutError"                     = "Účet byl uzamčen.";
+"InactiveAccountError"                      = "Účet nebyl aktivován.";
+"MDMEnrollmentRequiredError"                = "V této instanci AirWatch je požadována registrace MDM.";
+"InvalidTokenError"                         = "Byl zadán neplatný token.";
+"ConfigurationError"                        = "Došlo k chybě v konfiguraci.";
+
+
+/*************  AWHTTPRequestOperation Localized strings **********/
+"UnexpectedStatusCodeFormat" = "Byl obdržen neočekávaný stavový kód %d.";
+"UnexpectedContentTypeFormat"  = "Očekávaný druh obsahu: %@, obdržený obsah: %@.";
+
+
+/*************  AWLog Localized strings **********/
+"NoDeviceLogsToSend" = "Neexistuje žádný protokol zařízení k odeslání.";
+"NoCrashLogsToSend" = "Neexistuje žádný protokol selhání k odeslání.";
+"EmptyLogFile" ="Soubor protokolu je prázdný.";
+"NoLogsForSeverityGreaterOrEqualConfiguredLevel"   = "Protokol neobsahuje žádné položky se závažností, která je větší nebo rovna konfigurované úrovni.";
+"FailedToSendLogData" = "Odeslání dat protokolu selhalo.";
+"WiFiConnectionError" = "Připojte se k síti Wi-Fi nebo se obraťte na svého administrátora.";
+"NeedsWiFiToSendLogData" ="Konzola AW vyžaduje připojení síti Wi-Fi, aby mohla být odeslána data protokolu.";
+
+/*************  AWRestrictions Localized strings **********/
+"AWRestrictionsFailedToStart" = "Omezení AW nebyla spuštěna.";
+
+
+/*************  AWSecureChannelWrapper Localized strings **********/
+"SecureChannelServerCertErr" = "Chyba v šifrování serverového certifikátu";
+"ServerCertificateNotTrustedError" = "Certifikát serveru není důvěryhodný.";
+"SecureChannelHandshakeFailed"  = "Funkce Handshake selhala.";
+"FailedToGetToken"  = "Není možné přihlásit zařízení. Prosím zkuste to znovu nebo se obraťte na administrátora.";
+"FailedToInvalidateToken" = "Znehodnocení tokenu selhalo.";
+
+
+/*************  UIDevice+Power Localized strings **********/
+"UIDeviceBatteryStateFullMessage" = "Nabito";
+"UIDeviceBatteryStateChargingMessage" = "Probíhá nabíjení.";
+"UIDeviceBatteryStateUnpluggedMessage" = "Odpojeno ze sítě";
+
+
+/*************  AWProxy Localized strings **********/
+"TheProxyConfigurationIsMissing" = "Chybí konfigurace proxy.";
+"CheckServerConfigurationPropertyHasBeenSetAndValidObject" = "Ujistěte se, že vlastnosti konfigurace serveru byly nastaveny a jsou platným objektem.";
+"ServerConfigurationPropertyHasNotBeenSet" = "Vlastnosti konfigurace serveru nebyly nastaveny.";
+"ProxyConfigurationIsInvalid" = "Proxy konfigurace je neplatná.";
+"CheckServerConfigurationTypeIsSet" = "Ujistěte se, že je nastaven druh konfigurace serveru.";
+"ServerConfigurationTypeIsUnknown" = "Druh konfigurace serveru je neznámý.";
+"FailedToRegisterWithNSURLProtocol" = "Registrace s protokolem NSURL selhala.";
+"CheckTheClassYouAreRegisteringIsSubclassOfNSURLProtocol" = "Ujistěte se, že je třída, kterou registrujete, podřízenou třídou protokolu NSURL.";
+"TheClassYouAttemptedToRegisterIsNotSubclassOfNSURLProtocol" = "Třída, kterou jste se pokusili zaregistrovat, není podřízenou třídou protokolu NSURL.";
+
+
+/*************  AWProxy Localized strings **********/
+"FailedToSignRequest" = "Podepsání požadavku selhalo.";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "Na zařízení není uložen žádný autentizační certifikát MAG, nebo je neplatný.";
+"ProxyAuthenticationRequired" = "Je vyžadována autentizace proxy.";
+"InvalidAuthenticationForProxy" = "Autentizace poskytnutá proxy je neplatná.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Zkontrolujte ověřovací přihlašovací údaje a zkuste to znovu.";
+"MissingDeviceRootCertificate" = "Chybí kořenový certifikát zařízení.";
+"AnActivationCode(LG)WasNeverSaved" = "Aktivační kód (LG) nebyl uložen.";
+"FailedToGetPACscript" = "Načtení skriptu PAC selhalo.";
+"SetAutoConfigURLProperty" = "Nastavte vlastnosti automatické konfigurace URL.";
+"AutoConfigURLPropertyIsNotSet" = "Vlastnosti automatické konfigurace nejsou nastaveny.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Ujistěte se, že existuje platný skript uložený na specifikovaném, automaticky konfigurovaném URL.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Nepodařilo se dekódovat data získaná z automatické konfigurace URL.";
+"FailedToRetrievedAutoConfigUrlData" = "Nepodařilo se získat data z automatické konfigurace URL.";
+"MakeSurePACURLisValid" = "Ujistěte se, že URL PAC je platné.";
+"ErrorAlertProxy" = "Nastal problém s konfigurací brány MAG. Prosím zkontrolujte nastavení MAG.";
+
+/********************** AWPasscode Handler ************/
+"Dismiss"    = "Zrušit";
+"CurrentPassword" = "Aktuální heslo";
+"NewPassword"  = "Nové heslo";
+"ReenterNewPassword" = "Zadejte znovu nové heslo.";
+"Change"            = "Změnit";
+"Cancel"            = "Zrušit";
+"Enteryourpasscode:" = "Prosím, zadejte své heslo:";
+"Passcode"          = "Heslo";
+"Login"             = "Přihlásit se";
+"Notice"            = "Upozornění";
+"Passworddoesnotmatch" = "Nové heslo, které jste zadali, není shodné.";
+"OK"                = "OK";
+"EnterPasscodeError" = "Prosím, zadejte nové heslo.";
+"ReenterPasscodeError" = "Zadejte, prosím, nové heslo ještě jednou.";
+"Passworddonotcomplyrestriction"  = "Vaše heslo neodpovídá omezením.";
+"MaximumPasscodeAttemptsMessage" = "Dosáhli jste maximálního počtu nezdařených pokusů. U vašeho zařízení budou vymazána podniková data.";
+"MaximumPasscodeAgeHasExpired" = "Platnost stávajícího hesla vypršela. Vytvořte prosím nové heslo.";
+"PasscodeRequirementChanged" = "Požadavky na heslo se změnily. Vytvořte prosím nové heslo.";
+"PasscodePolicyViolation" = "Před nastavením hesla si prostudujte zásady hesel.";
+"MaximumPasscodeAttemptsMessageForApplication" = "Dosáhli jste maximálního počtu nezdařených pokusů. Data vaší aplikace budou vymazána.";
+
+"AttemptsLeftMessage" = "Počet zbývajících pokusů: %d";
+"IncorrectPasscodeEntered" = "Zadané heslo není správné.";
+"BackOffMessage"  = "Vaše aplikace byla deaktivována. Zkuste to znovu za %d sekund(y).";
+"NonSimplePasscode" =   "Heslo nemůže být jednoduché.";
+"AlphanumericPasscodeRequired" = "Vaše heslo není alfanumerické.";
+"NumericPasscodeRequired" = "Vaše heslo není numerické.";
+"MimimumPasscodeLength"   = "Vaše heslo by mělo obsahovat nejméně %d znaky(ů).";
+"MimimumComplexCharacters"= "Vaše heslo by mělo obsahovat nejméně %d komplexních znaků(y).";
+"ExpiredPasscode"         = "Toto heslo již bylo dříve použito. Prosím, zadejte jiné heslo.";
+"EnterYourPin"            = "Vytvořit heslo";
+"PinCreationMessage"      = "Heslo bude používáno na přihlášení do aplikace.";
+"CreatePin"               = "Prosím, nastavte heslo.";
+"PasscodeDidntMatch"      = "Hesla se neshodují, zadejte je znovu.";
+"Continue"                = "Pokračovat";
+"EnterAPin"               = "Prosím, zadejte PIN.";
+"Pin"                     = "PIN";
+"ConfirmPin"              = "Potvrdit PIN";
+"ConfirmPasscode"         = "Potvrdit heslo";
+"RetrievingOldPasscode"   = "Načítám vaše staré heslo...";
+"NotValidCredentials"     = "Neplatné přihlašovací údaje!";
+"OldPasscodeCannotBeEmpty"   = "Pole starého hesla nemůže zůstat prázdné.";
+"PasscodeCannotBeEmpty"   = "Pole nového hesla nemůže zůstat prázdné.";
+"ForgotPasscode"          = "Zapomněli jste heslo?";
+"ReEnterNewPasscode"      = "Zadejte znovu nové heslo.";
+"PasscodeRestriction"     = "Omezení týkající se hesla";
+"PasscodePolicyInitial"   = "Požadavky na heslo: \n";
+"PasscodePolicyNumeric"   = "minimální počet čísel: %d\n,";
+"PasscodePolicySimple"    = "nesmí být opakující se/vzestupnou/sestupnou řadou,";
+"PasscodePolicyAplhaNumeric"    =   "minimální počet znaků: %d,";
+"PasscodePolicyAplhaNumeric2"   =   "musí obsahovat nejméně jedno číslo a písmeno,";
+"PasscodePolicyComplexChar"     =   "a %d symboly(ů).";
+"Create" = "Vytvořit";
+"AttemptLeftMessage" = "Počet zbývajících pokusů: %d";
+"PasscodesMustMatch" = "Hesla se musí shodovat.";
+"ThatsAMatch" = "Shoda!";
+"PasscodeMustBeAtleast" = "Minimální počet požadovaných znaků: %d.";
+"CreatePasscode" = "Vytvořit heslo";
+"CreateNewPasscode" = "Vytvořit nové heslo";
+"OnePasscodeForWS1Apps" = "Všechny aplikace ve Workspace ONE jsou dostupné přes jedno heslo.";
+"EnterSharedPasscode" = "Zadat sdílené heslo";
+"CreateSharedPasscode" = "Vytvořit sdílené heslo";
+
+/********************** SDK Setup Error Messages *******************/
+"StopSDKRequested" = "Aplikace pozastavila inicializaci z důvodu požadavku \„Zastavit SDK“\.";
+"RegisteringApplicationBlocked" = "Aplikace nemá na konzole oprávnění být používána na tomto zařízení.";
+"EnrollmentInformationSetup" = "Načtení stavu registrace nebylo možno dokončit.";
+"EmptyProfiles" = "Nebyly načteny žádné profily SDK a žádné nejsou uloženy.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Momentálně není možné načíst integrované autentizační certifikáty.";
+"ApplicationIdentityNotSet" = "Nepodařilo se potvrdit identitu uživatele.";
+"FailedToFetchPinningCertificate" = "Momentálně není možné načíst certifikáty připnutí SSL.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication-> Environment information for application could not be retrieved at this time.";
+"ApplicationConfiguredIncorrectly" = "Aplikace nebyla nakonfigurována správně. Schémata zpětného volání pro tuto aplikaci nejsou správně nastavena pomocí SDK.";
+"BlockThirdPartyAppAsStandalone" = "Přesvědčte se, že je na zařízení nainstalována aplikace používaná pro registraci.";
+
+/********************** Offline Access *******************/
+"OfflineAccessNotAllowed"       = "Přístup v režimu offline je zakázán. Chcete-li získat přístup ke zdrojům, připojte se k internetu.";
+"OfflineAccessDurationExceeded" = "Dosáhli jste maximálního počtu přístupů v režimu offline. Chcete-li získat přístup ke zdrojům, připojte se k internetu.";
+"OfflineMessage" = "Abyste mohli použít tuto funkci, musíte být přihlášeni v režimu online.";
+
+/********************** Command Processor *******************/
+"NoProfilesAvailableForRepublish" = "Nejsou žádné profily dostupné pro opětovné zveřejnění.";
+
+/*************AWEnrollmentAuthenticationViewController**********/
+"CompleteAllFieldsAlertMessage"="Vyplňte všechna pole a zkuste to ještě jednou.";
+"AuthenticatingTitle" = "Probíhá autentizace.";
+"ErrorAlert"="Zadejte, prosím, URL služeb zařízení AirWatch a pokračujte.";
+"DeviceNotEnrolledAlertMessage"="Toto zařízení není registrováno. Chcete je zaregistrovat nyní?";
+"ErrorAlertServerUnreachable"= "Zdá se, že je server momentálně nedosažitelný. Zkuste to prosím později.";
+"ErrorOccuredCheckEnrollment"="Došlo k chybě. Přesvědčte se, prosím, že je na zařízení nainstalována aplikace AirWatch, jež se používá k registraci.";
+"DeviceNotEnrolledPleaseEnroll"="Zařízení není zaregistrováno. Prosím zaregistrujte zařízení a pokračujte.";
+"LastAuthenticationAttemptWipeWarning"="Je to váš poslední pokus. Při dalším neplatném pokusu budou data aplikace vymazána.";
+"NeedToUpdateYourEnvironmentInformation" = "Zdá se, že již nejste registrováni v prostředí registrované aplikace. Pokusíme se nyní aktualizovat informace vašeho prostředí.";
+"RetryToFetchConfigurationInformation" = "Nepodařilo se načíst konfigurační informace. Stiskněte Pokračovat a zkuste to znovu.";
+
+
+/************* AWAuthorizeTokenView**********/
+"AuthorizationToken" ="Ověřovací token";
+"Token" = "Token";
+"WorkOnline" = "Pracovat v režimu online";
+"UseToken" = "Použít token";
+
+"Username"="Uživatelské jméno";
+"Password" = "Heslo";
+"UseUserNamePassword" = "Použít uživatelské jméno-heslo";
+"SignIn" = "Přihlášení";
+
+/************* Passcode Rules - AWEnrollmentCreatePinViewController **********/
+"YourPasscodeShould" = "Požadavky na heslo:";
+"NumericPasscodeLengthInstruction" = "\n - minimální počet čísel (%d),";
+"DontAllowSimpleNumericPasscodeInstrution" = "\n - nesmí mít opakující se/vzestupnou/sestupnou tendenci,";
+"AlphaNumericPasscodeLengthInstruction" = "\n - minimální počet znaků: (%d),";
+"AlphaNumericSimplePasscodeInstrution" = "\n - minimální počet čísel: (1) a minimální počet písmen: (1),";
+"ComplexSymbolsRequiredInstruction" = " počet symbolů: %d,";
+"DontAllowSimpleAlphanumericInstrution" = "\n - nesmí mít opakující se/vzestupnou/sestupnou tendenci znaků,";
+"PasscodeHistoryInstruction" = "\n - nesmí se shodovat s posledními %d hesly.";
+
+/************* Passcode Rules Full Sentences - AWEnrollmentCreatePinViewController **********/
+"MinimumNumericPasscodeLengthInstruction" = "Vaše heslo by mělo obsahovat nejméně %d čísel.";
+"NonMatchingPasscodeHistoryInstruction" = "Heslo by se nemělo shodovat s předchozími %d hesly.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Heslo by se nemělo opakovat a mít vzestupnou/sestupnou tendenci.";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Heslo by se nemělo opakovat a obsahovat vzestupné/sestupné znaky.";
+"MinimumComplexSymbolsRequiredInstruction" = " Vaše heslo by mělo obsahovat nejméně %d symbolů.";
+
+
+/******************************* SAML Error Handling *******************************************/
+"PleaseContactYourAdminstrator" = "Prosím obraťte se na svého administrátora.";
+
+/******************************* AWAuthenticationViewController *******************************************/
+"UsernamePasswordRememberMe" = "Zapamatovat heslo?";
+"WorkOnline"   = "Pracovat v režimu online";
+
+/******************************* AWServerDetailsViewController *******************************************/
+"Success" = "Povedlo se.";
+"ChangeServerDetailsTitle" = "Detaily serveru";
+"ConfirmChangeServerDetails" = "Opravdu chcete změnit detaily serveru? Pokud to provedete, data aplikace budou odstraněna.";
+"ChangeServerDetailsMessage" = "Detaily serveru byly úspěšně změněny.";
+"ScanQRCodeTitle" = "Vyplňte formulář skenováním kódu QR.";
+"ScanQRCode" = "Skenovat kód QR.";
+"NeedCameraPermission" = "Tato aplikace nemá přístup k fotoaparátu zařízení. Chcete-li povolit přístup, klepněte na možnost Nastavení a zapněte fotoaparát.";
+"ServerURLPlaceholder" = "https://example.com";
+"GroupID" = "ID skupiny";
+"ServerURL" = "URL serveru";
+"InvalidQRCodeErrorMessage" = "Neplatný kód QR. Prosím, zkuste to znovu s platným kódem QR.";
+"QRCodeScanErrorMessage" = "Chyba při skenování kódu QR. Zkuste to prosím znovu.";
+"ServerURLConnectionError" = "Chyba v připojení k serveru. Zkontrolujte prosím síťové připojení nebo kontaktujte svého administrátora.";
+"EmptyServerDetailsErrorMessage" = "Zadejte, prosím, platné URL serveru a ID skupiny a pokračujte.";
+"AWDeleteReInstall" = "Po vymazání a opakované instalaci musíte mít aktivní internetové připojení se serverem správy zařízení, abyste mohli pokračovat.";
+"PendingUnenrollmentReportConnectivityError" = "Chcete-li pokračovat, přesvědčte se, že je zařízení připojeno k síti.";
+/*****************  Touch ID Authentication  ************************************/
+"UseTouchID" = "Použít Touch ID";
+"AuthenticateForAccess" = "Autentizovat pro přístup";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "Zdá se, že došlo ke změnám na seznamu otisků prstů. Z bezpečnostních důvodů zadejte heslo ještě jednou, abyste znovu aktivovali TouchID.";
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "Zdá se, že došlo ke změnám na seznamu otisků prstů. Z bezpečnostních důvodů zadejte přihlašovací údaje ještě jednou, abyste znovu aktivovali TouchID.";
+
+/********* Compromised Blocker View *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Vaše zařízení je kompromitováno (jailbreakem). Z důvodu problémů se síťovým připojením nemáte přístup ke své aplikaci.";
+
+
+/*************  Common AW Localized strings **********/
+"TryAgain"= "Zkusit znovu.";
+"of"= "z";
+"No"= "Ne";
+"YesTitle"="Ano";
+"Accept"="Přijmout";
+"Confirm"="Potvrdit";
+"DeleteTitle"="Odstranit";
+"CancelTitle"="Zrušit";
+"SubmitTitle" = "Odeslat";
+"PageNoTitle"="Strana %d";
+"MarkUnreadtitle" = "Označit jako nepřečtené";
+"MarkReadTitle" = "Označit jako přečtené";
+"MarkAction" = "Akce";
+"DeleteAllTitle"="Vymazat vše";
+"Prev" = "Předchozí";
+"Next" = "Další";
+"ThatWorks"= "Funguje to!";
+"TermsAndConditionsAllCaps" = "PODMÍNKY POUŽITÍ";
+"TermsAndConditions" = "Podmínky použití";
+
+/*******************AWTableViewController********************************************/
+"ReleaseTitle"= "Uvolněním provedete aktualizaci.";
+"LoadingLabel"="Nahrávám...";
+"RefreshTitle"="Aktualizujte tažením dolů.";
+
+/*************AWDocumentContainerView**********/
+"BookmarkedPagesTitle"= "Stránky označené záložkou";
+"AllPagesTitle" ="Všechny stránky";
+
+/************* AWDocumentInteractionController**********/
+"AccessAlertMessage" = "Administrátor nepovolil, aby byl tento dokument otevřen v aplikaci.";
+"WarningMessageTitle"="Upozornění";
+
+/************* AWDocumentSearchView**********/
+"EnterSearchText" = "Zadejte vyhledávaný text.";
+
+/*************AWEULAViewController**********/
+"DeclineTitle" = "Odmítnout";
+"TermsOfUse" = "Podmínky použití";
+"Back" = "Zpět";
+
+/*************AWMessageDetailViewController**********/
+"ComplianceCheckTitle"="Je vyžadována kontrola dodržování zásad.";
+"ComplianceCheckSentTitle" = "Kontrola dodržování předpisů byla odeslána.";
+"DeleteMessageTitle" = "Smazat zprávu";
+"ConfirmDeleteMessageTitle" = "Trvale vymazat protokol zpráv?";
+"MessageDetailSectionTitle" = "Podrobnosti zprávy";
+"ConsoleMessageTitle" = "Zpráva z konzoly";
+"MessageActionSectionTitle" = "Akce";
+
+/*************AWMessageTypesViewController**********/
+"MessageTypesTitle"="Druhy zpráv";
+"TableCellAllMessages"="Všechny zprávy";
+"TableCellCompliance"="Soulad";
+"TableCellUserAgreement"="Uživatelská smlouva";
+"TableCellAppCatalog"="Katalog aplikací";
+"TableCellMessages"="Zprávy";
+
+/*************AWMessageViewController**********/
+"AllTitle" = "Vše";
+"UnreadTitle" = "Nepřečtené";
+"ReadTitle" = "Přečtené";
+"NoMessagesTitle" = "Žádné zprávy";
+"MarkAllTitle" = "Označit vše";
+"MarkItemsTitle"= "Označit";
+"DeleteMessagesTitle"="Smazat zprávy";
+"ConfirmDeleteMessages"= "Trvale vymazat vybrané zprávy?";
+"Messages" = "Zprávy";
+
+/**********AWPDFDocumentDocument**********/
+"PasswordAlertTitle" = "Heslo dokumentu";
+
+/**********AWPDFOutlineViewCell**********/
+"NoTitle" = "(Bez názvu)";
+
+/**********AWPDFSearchViewController**********/
+"SearchViewTitle"="Prohledávat dokument";
+"HeaderSectionHitNumber"="( %d )";
+"HeaderSectionTOCTitle"= "%@";
+"HeaderSectionPageAndHitNumber" ="Strana %d ( %d )";
+"ExpandAllTitle"= "Vše rozbalit";
+"CollapseAllTitle"= "Vše sbalit";
+"SortByHitTitle" = "Třídit dle položky";
+"SortByPageTitle" = "Třídit dle stránky";
+"PauseTitle"= "Pozastavit";
+"ResumeTitle" = "Pokračovat";
+"DoneTitle"= "Hotovo";
+"NoResultTitle"="Nebyly nalezeny žádné výsledky.";
+"SearchCompleteTitle"= "Prohledávání je dokončeno.";
+"SearchingPageMessageTitle"= "Prohledávám stránku %i...";
+
+/**********AWServerPathView**********/
+"ServerPath"="Cesta serveru";
+
+/**********AWServerSetupController**********/
+"UrlTitle"="URL";
+"URLPlaceholder" ="https://example.com";
+"GroupIDPlaceholder"="Příklad ID";
+"InvalidURLAlert"="Zadané URL se nezdá být platným URL.";
+"ManualSetup" = "Manuální nastavení";
+
+/**********AWTabBar*******************/
+"NewTab" = "Nová karta";
+
+/* RSA Adaptive Auth */
+
+"BlankAnswerErrorMsg" = "Pole kódu PIN nemůže zůstat prázdné. Prosím zadejte PIN a pokračujte.";
+"WrongAnswerLengthErrorMsg"  = "Chybná délka kódu PIN. Váš PIN by měl obsahovat %lu až %lu znaků.";
+
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Prosím zadejte PIN a token SecureID.";
+"AnswerPlaceHolderNewPin" = "PIN";
+
+"ChallengeServerError" = "Chyba serveru. Prosím obraťte se na svého administrátora.";
+"ChallengeLocked" = "Váš účet byl uzamčen. Prosím obraťte se na svého administrátora.";
+"ChallengeNextTokenAuth" = "Zadejte svůj kód PIN a poté token SecureID.";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Zadejte svůj kód PIN a token SecureID.";
+"ChallengeNewPinFromSystem" = "Zadejte PIN jako";
+"ChallengeNewPinFromUser" = "Zadejte nový PIN.";
+"ChallengeTokenAuth" = "Zadejte kód PIN a token SecureID. Pokud jste kód PIN nenastavili, zadejte pouze token SecureID.";
+
+/*************  AW Localized strings for Errors **********/
+"ApplicationRegistrationDidNotComplete" = "Nastala chyba v autentizaci požadavku aplikace.";
+"AnErrorOccured" = "Došlo k chybě.";
+"ContactYourAdministrator" = "Více informací získáte od svého administrátora.";
+"ErrorCode" = "Chyba kódu:";
+
+/************ AW Certificate Pinning *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK hlásí selhání autentizace veřejného klíče během načítání certifikátu z automatického zjišťování.";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK hlásí selhání autentizace veřejného klíče během komunikace se službami zařízení.";
+
+/* SAML Authentication */
+"SAMLVerificationUnavailableErrorMessage" = "SAML bylo deaktivováno vaší aplikací. Aktivujte je a zkuste to znovu.";
+"SAMLVerificationInvalidGroupIDErrorMessage" = "Neplatné ID skupiny";
+"SAMLVerificationInvalidServerURLErrorMessage" = "Neplatné URL serveru";
+"SAMLVerificationNoServerResponseErrorMessage" = "Žádná odezva serveru";
+"SAMLVerificationNoRedirectURLErrorMessage" = "Server nevydal URL poskytovatele služby.";
+"LogoutMessage" = "Jste odhlášeni.";
+"SAMLIDPAuthenticationMessage" = "Autentizace pomocí poskytovatele identity";
+"SAMLContactingSPMessage" = "Kontaktuji poskytovatele služby.";
+"SAMLAuthenticationCancelledMessage" = "Uživatel zrušil autentizaci. Zkuste to, prosím, znovu.";
+
+/* Intercept Links */
+"TargetAppNotInstalledMessage" = "Na zařízení nemáte nainstalované povolené aplikace, jež jsou potřebné k akci %@.";
+

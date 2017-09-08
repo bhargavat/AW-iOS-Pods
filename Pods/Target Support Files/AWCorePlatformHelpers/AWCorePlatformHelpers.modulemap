@@ -1,0 +1,6 @@
+framework module AWHelpers {
+  umbrella header "AWCorePlatformHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

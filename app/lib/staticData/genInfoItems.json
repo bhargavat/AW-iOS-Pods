@@ -1,0 +1,53 @@
+{"userInfo":[
+	{
+	"label": "Username",
+	"value": "undefined"
+	},
+	{
+	"label": "User Org Group",
+	"value": "undefined"
+	},
+	{
+	"label": "Username",
+	"value": "undefined"
+	},
+	{
+	"label": "Full Name",
+	"value": "undefined"
+	},
+	{
+	"label": "Domain",
+	"value": "undefined"
+	},
+	{
+	"label": "User ID",
+	"value": "undefined"
+	}	
+],
+
+"deviceInfo":[
+	{
+	"label": "Enrolled",
+	"value": "undefined"
+	},
+	{
+	"label": "Compliant",
+	"value": "undefined"
+	},
+	{
+	"label": "Org Group",
+	"value": "undefined"
+	},
+	{
+	"label": "Org Group ID",
+	"value": "undefined"
+	},
+	{
+	"label": "MGMT Type",
+	"value": "undefined"
+	},
+	{
+	"label": "Is Managed",
+	"value": "undefined"
+	}
+]}

@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="intAuthWin" title="General Information">
+		<!-- <ListView id="homelist" defaultItemTemplate="listtemplate" layout="vertical"> -->
+			<TextField id="urlfield" hintText="Enter url with http/https"></TextField>			
+			<WebView></WebView>
+		<!-- </ListView> -->
+	</Window>
+</Alloy>

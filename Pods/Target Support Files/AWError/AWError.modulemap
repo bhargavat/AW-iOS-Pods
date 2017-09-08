@@ -1,0 +1,6 @@
+framework module AWError {
+  umbrella header "AWError-umbrella.h"
+
+  export *
+  module * { export * }
+}
